@@ -1,0 +1,6637 @@
+{
+  "meta": {
+	"generated_from": "a game about telling lies.xmind",
+	"generated_at": "2026-09-14T02:29:54.304Z",
+	"start_node": "intro",
+	"node_count": 97
+  },
+  "nodes": {
+	"0": {
+	  "id": "0",
+	  "design_id": "0",
+	  "label": "Need to use bathroom",
+	  "location": "cafe",
+	  "kind": "sequence",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Actually, sorry for the bad timing, but I really need to use the bathroom..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Why? Did you eat already? Before your date?!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "WHERE ARE YOUR MANNERS!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You are NOT going anywhere!"
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:0"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+        "prey_0"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"1": {
+	  "id": "1",
+	  "design_id": "1",
+	  "label": "Hotter than pictures",
+	  "location": "cafe",
+	  "kind": "choices",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Yup-"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I- I totally did not expect you to be... EVEN HOTTER than your profile pictures, ma'am-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You really think so?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Y-yes!!! Yes of course!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Hmmm."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You do have a good taste, don't you?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Not just that you taste good, though that too, probably-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But, also, you really have a good taste for who you go out with."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I know I am attractive. Of that there is no doubt."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Too many people tried to bring me down... shaming me for having confidence!!! On my good looks!!! But not you..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You are different, aren't you?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Oh, to think... I just might spare your life tonight, if you play your cards right..."
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:1"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+        "2"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"2": {
+	  "id": "2",
+	  "design_id": "2",
+	  "label": "I am not your food",
+	  "location": "cafe",
+	  "kind": "choices",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Girl chill, why would you want to eat me, anyways?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Ahem, as unbelievable as it might sound to you, but, hear me out-"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I'm probably not even on YOUR menu. Actually."
+		},
+		{
+		  "speaker": "you",
+		  "text": "That is to say-"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I'm not part of your food chain! Yup."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Why not?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I love eating humans!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You totally look like a human to me!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Just like my last first match AND first date yesterday!!!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "WOW."
+		},
+		{
+		  "speaker": "you",
+		  "text": "UM-"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Because I..."
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:2"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+		"2.1",
+        "2.2"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"3": {
+	  "id": "3",
+	  "design_id": "3",
+	  "label": "What are you",
+	  "location": "cafe",
+	  "kind": "choices",
+	  "lines": [
+		{
+		  "speaker": "idimya",
+		  "text": "What are you, then?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Getting personal, aren't we?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Heh, I mean, why don't you take a guess?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Hmmmmmm..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Actually I did think I was the only species that disguises as humans while preying on them..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "If you are like me, but also not like me- I really don't have a clue here."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "So tell me already-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "WHAT. ARE. YOU???"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Well, let's just say..."
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:3"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+		"3.1",
+		"3.2",
+        "3.3"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"5": {
+	  "id": "5",
+	  "design_id": "5",
+	  "label": "Did you mention eating humans",
+	  "location": "cafe",
+	  "kind": "choices",
+	  "lines": [
+		{
+		  "speaker": "idimya",
+		  "text": "Oh, by the way, remind me: did you at any point ever say if you also eat humans just like I do?"
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:5"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+		"5.1",
+		"5.2",
+		"5.3",
+        "5.4"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"6": {
+	  "id": "6",
+	  "design_id": "6",
+	  "label": "Eating humans",
+	  "location": "cafe",
+	  "kind": "choices",
+	  "lines": [
+		{
+		  "speaker": "idimya",
+		  "text": "Oh so sorry!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But please, tell me all about it!!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Well... since we're here... what would you like to know?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "EVERYTHING!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Tell me from the very beginning!"
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:6"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+		"6.1",
+        "6.2"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"7": {
+	  "id": "7",
+	  "design_id": "7",
+	  "label": "First time",
+	  "location": "cafe",
+	  "kind": "choices",
+	  "lines": [
+		{
+		  "speaker": "idimya",
+		  "text": "I remember my first time doing it..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "It was the smell... delicious, human smell..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I followed the smell, and eventually I met the human with the smell!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "And I had my feast! Just like that!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I remember it like it was yesterday!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Ohhh, if only I could experience that first time high once again. I would trade anything for it!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "... understandably so."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "What was your first time like?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I..."
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:7"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+		"7.1",
+		"7.2",
+        "7.3"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"8": {
+	  "id": "8",
+	  "design_id": "8",
+	  "label": "How do you eat",
+	  "location": "cafe",
+	  "kind": "choices",
+	  "lines": [
+		{
+		  "speaker": "idimya",
+		  "text": "Ohhh, okay, here is a good one."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Assuming you are already used to eating humans by now, by the sound of it-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "What is your preferred way to eat?"
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:8"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+		"8.1",
+        "8.2"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"9": {
+	  "id": "9",
+	  "design_id": "9",
+	  "label": "Ask me anything",
+	  "location": "cafe",
+	  "kind": "choices",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Okay, Idimya, you know..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I have been talking about myself for a while..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Let's talk about you for a second."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Sure thing!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Ask me anything!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Do you..."
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:9"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+		"9.1",
+		"9.2",
+        "9.3"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"intro": {
+	  "id": "intro",
+	  "design_id": "how do I look",
+	  "label": "",
+	  "location": "bedroom",
+	  "kind": "choices",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "First ever Fumble match in a billion years..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I can't believe this. She's not even real. Can't be."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I wonder if she swiped on me by accident..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "But this is not even the craziest part."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Oh god."
+		},
+		{
+		  "speaker": "you",
+		  "text": "The day has come. The fate has spoken."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I can't believe I am going to have my organs stolen tonight."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Welp."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Worth it, if she actually looks like the pictures... not the worst way to go..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "This is the location she sent me alright..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "And it's a... bistro???"
+		},
+		{
+		  "speaker": "you",
+		  "text": "For some reason, I have the feeling that the only item I am able to afford is still water... from the bathroom tap..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Or not even that..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "This must be her."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Idimya? From Fumble?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "YES!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "HELLO!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Please, make yourself at home!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You are actually here!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I am so happy that you showed up, you cannot even imagine!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "You... are?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Well... nice to meet you too?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I ordered espressos for us hehe!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Oh, you a fan of black coffee?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "No!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I like espressos!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "EXCUSE ME???"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Why is my espresso so small?!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I want 10 of them!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Actually, a full pitcher!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Wow, you got a deadline or something?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "It's late, I might just have a decaf actually. Thanks."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "How many are YOU having?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Uh-"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Um."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I'm going to have the normal amount?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "THANK YOU!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "BLEH-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Ah yes delicious! My favorite!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "... you're having fun."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Indeed!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Hey..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Can I tell you a secret?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Uh, sure?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You... are my first match AND my first date!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "And a total snack!!! Just look at you!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I feel like the luckiest girl on earth!!!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Why, do I deserve this honor..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "But same same, truth be told, you are also my first... I mean, first in a while... I totally had other dates, before you... yeah."
+		},
+		{
+		  "speaker": "you",
+		  "text": "And, you are very pretty, too."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Really? Ohhh that makes me blush... so... much..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Oh god... my face... feels like I'm melting..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "The espresso was too hot..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Don't look at me..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Whoopsie."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Ugh, I must look so embarrassing right now."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Say, you REALLY think I'm pretty?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Because you look like the most DELICIOUS SNACK ever!"
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+		"0",
+        "1"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"2.1": {
+	  "id": "2.1",
+	  "design_id": "2.1",
+	  "label": "Not human",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Since you prey on humans, you should be able to tell that I am actually not human!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "... even though I... completely look like one!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Oh?!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You have me intrigued, fellow humanoid being..."
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:2.1"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": {
+		"identity_route": "not_human"
+	  },
+	  "children": [],
+	  "goto": "3",
+	  "ending_key": null
+	},
+	"2.2": {
+	  "id": "2.2",
+	  "design_id": "2.2",
+	  "label": "Also eat humans",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Because I also eat humans! That makes us equals on the food chain!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "...that is why I know you wouldn't eat me!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You... do?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "OMG!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "OMG!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You should have said that earlier?!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I thought I was going to have to eat you!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But wait..."
+		}
+	  ],
+	  "cras": {
+		"S": 1
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:2.2"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": {
+		"claimed_eats_humans": true
+	  },
+	  "children": [],
+	  "goto": "3",
+	  "ending_key": null
+	},
+	"prey_0": {
+	  "id": "prey_0",
+	  "design_id": "prey",
+	  "label": "",
+	  "location": "cafe",
+	  "kind": "prey",
+	  "lines": [],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"6.1": {
+	  "id": "6.1",
+	  "design_id": "6.1",
+	  "label": "Natural instinct",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "I don't know how to explain..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I guess one day I just knew this was what I wanted, and..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I have always been this way. No questions asked."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Oh, totally, same!"
+		}
+	  ],
+	  "cras": {
+		"C": -1,
+		"R": -2,
+		"A": 1
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:6.1"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "7",
+	  "ending_key": null
+	},
+	"6.2": {
+	  "id": "6.2",
+	  "design_id": "6.2",
+	  "label": "Learned to like it",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Well..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "It did not come natural to me, in the beginning..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I really kinda discovered that I can do this by accident, and I have been fairly enjoying it ever since... no regrets."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Really?! That's so cool!!!"
+		}
+	  ],
+	  "cras": {
+		"C": -1,
+		"R": -1,
+		"A": 1,
+		"S": 1
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:6.2"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "7",
+	  "ending_key": null
+	},
+	"5.1": {
+	  "id": "5.1",
+	  "design_id": "5.1",
+	  "label": "No, I didn't, and I don't eat humans",
+	  "location": "cafe",
+	  "kind": "sequence",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Oh, no, don't think so."
+		},
+		{
+		  "speaker": "you",
+		  "text": "As in, no, I did not mention it at any point, and also, I in fact don't eat humans like you do..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Sorry..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Oh..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But you were nodding along, when I talk about MY human eating experiences!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Sure I was!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But... why?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "... so what DO you eat?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "You know? Like, kind of share a similar diet with the humans, somehow?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "How disappointing!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yeah, well, that was fun, it's getting pretty late, I should head-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Fun?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "FUN?!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "WASTING IDIMYA'S TIME... FUN?!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I HATE YOU!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "IDIMYA NO-"
+		},
+		{
+		  "speaker": "you",
+		  "text": "We had a good conversation, and I-I really like you, and- and- maybe we can be friends, I can show you some other kinds of food and you might like-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "...other... kinds of food?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Other than... humans?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "YES, thank you!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "There are so many cool options!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Yeah..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Idimya will try!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "STARTING FROM YOU!"
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:5.1"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+        "prey_5.1"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"prey_5.1": {
+	  "id": "prey_5.1",
+	  "design_id": "prey",
+	  "label": "",
+	  "location": "cafe",
+	  "kind": "prey",
+	  "lines": [],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"5.2": {
+	  "id": "5.2",
+	  "design_id": "5.2",
+	  "label": "No, I didn't, but I do eat humans",
+	  "location": "cafe",
+	  "kind": "branch",
+	  "lines": [],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:5.2"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+		"5.2.1",
+        "5.2.2"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"5.2.1": {
+	  "id": "5.2.1",
+	  "design_id": "5.2.1",
+	  "label": "",
+	  "location": "cafe",
+	  "kind": "sequence",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Oh, uh, no?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "As in, I don't think I have mentioned myself eating humans hahah... but I do!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Oh..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But you lie!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I what now?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You did tell me you eat humans!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "IDIMYA NO FORGET!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I was so looking forward to talking about this with you!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Why did you lie?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Oh, sorry! Maybe I made a mistake!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "That's fine, right? We... all... make mistakes?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "IDIMYA NO LIKE!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yeah, sorry about that."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Well, that was fun, it's getting pretty late, I should head-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Fun?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "FUN?!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "WASTING IDIMYA'S TIME... FUN?!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I HATE YOU!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "IDIMYA NO-"
+		},
+		{
+		  "speaker": "you",
+		  "text": "We had a good conversation, and I-I really like you, and- and- I made a mistake, but maybe we can move on and-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You made Idimya... mistake?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "YES, thank you, Idimya! It was a mistake! Let's just forget about it and-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "NO YOU DON'T!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I SHOULD BE THE ONE MAKING YOU INTO MY-STEAK!!!"
+		}
+	  ],
+	  "cras": {},
+	  "requires": {
+		"op": "or",
+		"terms": [
+		  {
+			"token": "2.2",
+			"value": true
+		  },
+		  {
+			"token": "3.2.2",
+			"value": true
+		  }
+		]
+	  },
+	  "sets": [
+        "picked:5.2.1"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+        "prey_5.2.1"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"prey_5.2.1": {
+	  "id": "prey_5.2.1",
+	  "design_id": "prey",
+	  "label": "",
+	  "location": "cafe",
+	  "kind": "prey",
+	  "lines": [],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"5.2.2": {
+	  "id": "5.2.2",
+	  "design_id": "5.2.2",
+	  "label": "",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Funny you asked! I been wanting to share some of my experiences of eating humans as well. Just never got the right moment."
+		}
+	  ],
+	  "cras": {
+		"A": 2
+	  },
+	  "requires": {
+		"op": "and",
+		"terms": [
+		  {
+			"token": "2.2",
+			"value": false
+		  },
+		  {
+			"token": "3.2.2",
+			"value": false
+		  }
+		]
+	  },
+	  "sets": [
+        "picked:5.2.2"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "6",
+	  "ending_key": null
+	},
+	"5.3": {
+	  "id": "5.3",
+	  "design_id": "5.3",
+	  "label": "Yes, I did mention that I eat humans",
+	  "location": "cafe",
+	  "kind": "branch",
+	  "lines": [],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:5.3"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+		"5.3.1",
+        "5.3.2"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"5.3.1": {
+	  "id": "5.3.1",
+	  "design_id": "5.3.1",
+	  "label": "",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Funny you asked! I been wanting to share some of my experiences of eating humans as well. Is it my turn yet, finally?"
+		}
+	  ],
+	  "cras": {
+		"A": 3
+	  },
+	  "requires": {
+		"op": "or",
+		"terms": [
+		  {
+			"token": "2.2",
+			"value": true
+		  },
+		  {
+			"token": "3.2.2",
+			"value": true
+		  }
+		]
+	  },
+	  "sets": [
+        "picked:5.3.1"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "6",
+	  "ending_key": null
+	},
+	"5.3.2": {
+	  "id": "5.3.2",
+	  "design_id": "5.3.2",
+	  "label": "",
+	  "location": "cafe",
+	  "kind": "sequence",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Oh, uh, I guess?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "As in, I think I did mention myself eating humans hahah... didn't I?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Oh..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But you lie!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I what now?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You did NOT tell me you eat humans!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You were just nodding along!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "IDIMYA NO FORGET!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But why?!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Why did you lie?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Oh, sorry! Maybe I made a mistake!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "That's fine, right? We... all... make mistakes?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "IDIMYA NO LIKE!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yeah, sorry about that."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Well, that was fun, it's getting pretty late, I should head-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Fun?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "FUN?!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "WASTING IDIMYA'S TIME... FUN?!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I HATE YOU!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "IDIMYA NO-"
+		},
+		{
+		  "speaker": "you",
+		  "text": "We had a good conversation, and I-I really like you, and- and- I made a mistake, but maybe we can move on and-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You made Idimya... mistake?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "YES, thank you, Idimya! It was a mistake! Let's just forget about it and-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "NO YOU DON'T!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I SHOULD BE THE ONE MAKING YOU INTO MY-STEAK!!!"
+		}
+	  ],
+	  "cras": {},
+	  "requires": {
+		"op": "and",
+		"terms": [
+		  {
+			"token": "2.2",
+			"value": false
+		  },
+		  {
+			"token": "3.2.2",
+			"value": false
+		  }
+		]
+	  },
+	  "sets": [
+        "picked:5.3.2"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+        "prey_5.3.2"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"prey_5.3.2": {
+	  "id": "prey_5.3.2",
+	  "design_id": "prey",
+	  "label": "",
+	  "location": "cafe",
+	  "kind": "prey",
+	  "lines": [],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"5.4": {
+	  "id": "5.4",
+	  "design_id": "5.4",
+	  "label": "Yes, I did, but I don't eat them anymore",
+	  "location": "cafe",
+	  "kind": "branch",
+	  "lines": [],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:5.4"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+		"5.4.1",
+        "5.4.2"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"5.4.1": {
+	  "id": "5.4.1",
+	  "design_id": "5.4.1",
+	  "label": "",
+	  "location": "cafe",
+	  "kind": "sequence",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Oh, uh, I guess?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "As in, I think I have mentioned myself eating humans hahah... haven't I?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "But actually, I don't eat them anymore now! Sober and counting, haha!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Ew what?!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But you lie!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I what now?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You did NOT tell me you eat humans!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You were just nodding along!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You have never actually eaten a human before, haven't you?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But why?!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Why did you lie?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Oh, sorry! Maybe I made a mistake!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "That's fine, right? We... all... make mistakes?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "IDIMYA NO LIKE!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yeah, sorry about that."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Well, that was fun, it's getting pretty late, I should head-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Fun?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "FUN?!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "WASTING IDIMYA'S TIME... FUN?!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I HATE YOU!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "IDIMYA NO-"
+		},
+		{
+		  "speaker": "you",
+		  "text": "We had a good conversation, and I-I really like you, and- and- I made ONE SMALL mistake, but maybe we can move on and I can show you some other cool food alternatives and maybe you would like-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You made Idimya... mistake?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "YES, thank you, Idimya! It was a mistake! Let's just forget about it and-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "NO YOU DON'T!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I SHOULD BE THE ONE MAKING YOU INTO MY-STEAK!!!"
+		}
+	  ],
+	  "cras": {},
+	  "requires": {
+		"op": "and",
+		"terms": [
+		  {
+			"token": "2.2",
+			"value": false
+		  },
+		  {
+			"token": "3.2.2",
+			"value": false
+		  }
+		]
+	  },
+	  "sets": [
+        "picked:5.4.1"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+        "prey_5.4.1"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"prey_5.4.1": {
+	  "id": "prey_5.4.1",
+	  "design_id": "prey",
+	  "label": "",
+	  "location": "cafe",
+	  "kind": "prey",
+	  "lines": [],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"5.4.2": {
+	  "id": "5.4.2",
+	  "design_id": "5.4.2",
+	  "label": "",
+	  "location": "cafe",
+	  "kind": "choices",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Yes, I did! I used to eat humans all the time."
+		},
+		{
+		  "speaker": "you",
+		  "text": "But I actually stopped recently."
+		},
+		{
+		  "speaker": "you",
+		  "text": "And..."
+		}
+	  ],
+	  "cras": {
+		"A": 1
+	  },
+	  "requires": {
+		"op": "or",
+		"terms": [
+		  {
+			"token": "2.2",
+			"value": true
+		  },
+		  {
+			"token": "3.2.2",
+			"value": true
+		  }
+		]
+	  },
+	  "sets": [
+        "picked:5.4.2"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+		"5.4.2.1",
+        "5.4.2.2"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"5.4.2.1": {
+	  "id": "5.4.2.1",
+	  "design_id": "5.4.2.1",
+	  "label": "You should stop too",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "I am quite the advocate of this lifestyle!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Maybe... you would also give it a try?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Haha, you really are so funny!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Oh."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You are serious!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "WHY do you think anyone would EVER consider this?!"
+		}
+	  ],
+	  "cras": {
+		"R": 2,
+		"A": -1
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:5.4.2.1"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "5.4.3",
+	  "ending_key": null
+	},
+	"5.4.2.2": {
+	  "id": "5.4.2.2",
+	  "design_id": "5.4.2.2",
+	  "label": "Personal decision",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Just to be clear, I am not asking you to stop eating humans like me."
+		},
+		{
+		  "speaker": "you",
+		  "text": "It was a personal decision that I stopped."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I fully respect our lifestyle differences, though."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Haha, you really are so funny!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Oh."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You are serious!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "WHY would one ever come to this decision?!"
+		}
+	  ],
+	  "cras": {
+		"R": 1
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:5.4.2.2"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "5.4.3",
+	  "ending_key": null
+	},
+	"4.2": {
+	  "id": "4.2",
+	  "design_id": "4.2",
+	  "label": "Knowledge on humans",
+	  "location": "cafe",
+	  "kind": "choices",
+	  "lines": [
+		{
+		  "speaker": "idimya",
+		  "text": "Okay, anyways-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I see someone has done their homework."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Do you know a lot about humans?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Um?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I, uh..."
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:4.2"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+		"4.2.1",
+		"4.2.2",
+		"4.2.3",
+        "4.2.4"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"4.2.1": {
+	  "id": "4.2.1",
+	  "design_id": "4.2.1",
+	  "label": "Yes, proudly",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "I mean, yeah! I have been here for a while."
+		},
+		{
+		  "speaker": "you",
+		  "text": "And sometimes, I enjoy just observing them."
+		},
+		{
+		  "speaker": "you",
+		  "text": "You could know a lot about them before you speak to them, you know?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Ough... do you talk to them a lot?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Not necessarily..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Actually, I don't talk to people- I mean the humans that much..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Haha, okay! Almost gave me a big ick!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Well... I suppose I also like watching my preys... stalking is part of the hunt, you know?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Y-yeah... valid."
+		}
+	  ],
+	  "cras": {
+		"C": 3,
+		"R": 1,
+		"A": -3
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:4.2.1"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "5",
+	  "ending_key": null
+	},
+	"4.2.2": {
+	  "id": "4.2.2",
+	  "design_id": "4.2.2",
+	  "label": "Yes, unfortunately",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "I mean, yeah! I have been here for a while."
+		},
+		{
+		  "speaker": "you",
+		  "text": "And over time, I tend to notice patterns about them."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Never hurts to learn a thing or two, right? Keep your friends close, your enemies closer type beat."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Ough... do you make friends with them?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "GOD no-"
+		},
+		{
+		  "speaker": "you",
+		  "text": "They are just always involuntarily in my radius."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Sometimes it's bizarre how happy and carefree they are."
+		},
+		{
+		  "speaker": "you",
+		  "text": "But the more I know about them, the more I believe that there is no way I could befriend them. Too much of a difference."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Plus, I doubt they would even bother trying to understand me, either."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Haha, okay! Almost gave me a big ick!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You should try to make a friend!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But as a troll!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I have tried it, it was fun! Playing with my preys before eating them alive!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "The disbelief in their eyes when I revealed my true intention was always so funny to me!!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Y-yeah... valid."
+		}
+	  ],
+	  "cras": {
+		"C": 3,
+		"R": -1,
+		"A": 1
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:4.2.2"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "5",
+	  "ending_key": null
+	},
+	"4.2.3": {
+	  "id": "4.2.3",
+	  "design_id": "4.2.3",
+	  "label": "No, don't care",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Honestly? Not so much."
+		},
+		{
+		  "speaker": "you",
+		  "text": "But, who cares?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I know what my goals are."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I do what I can to achieve it."
+		},
+		{
+		  "speaker": "you",
+		  "text": "If it requires learning about this body of my own, then sure, whatever it takes."
+		},
+		{
+		  "speaker": "you",
+		  "text": "But I don't feel the need to actively seek anything from them, you know?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "What's so good that they could offer me that I absolutely could not turn down, anyways?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Anxiety?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I find humans so loud and annoying. Why even bother?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Heh, yup, well said! Same!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "As long as they hand in their meat into my mouth, they are good enough for me as they are!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "No problem staying that way for eternity!"
+		}
+	  ],
+	  "cras": {
+		"C": -3,
+		"R": -2,
+		"A": 3
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:4.2.3"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "5",
+	  "ending_key": null
+	},
+	"4.2.4": {
+	  "id": "4.2.4",
+	  "design_id": "4.2.4",
+	  "label": "No, still learning",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Honestly? Not so much."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I have tried to make an effort to get to know them better, but always hit dead ends."
+		},
+		{
+		  "speaker": "you",
+		  "text": "But, never hurts to learn a thing or two, right? Keep your friends close, your enemies closer type beat."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Wow, you sure try! I gave up a long time ago!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yeah? And how's that working for you?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Pretty good, actually!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Why WOULD I try to empathize with my food, anyways? BAD FOR BUSINESS!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Y-yeah... valid."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You should also try it!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Just stop caring!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "And profit!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yeah, maybe."
+		}
+	  ],
+	  "cras": {
+		"C": 3,
+		"R": 1,
+		"A": -2
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:4.2.4"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "5",
+	  "ending_key": null
+	},
+	"4.1": {
+	  "id": "4.1",
+	  "design_id": "4.1",
+	  "label": "Obtainment of body",
+	  "location": "cafe",
+	  "kind": "choices",
+	  "lines": [
+		{
+		  "speaker": "idimya",
+		  "text": "NEXT QUESTION-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Where did you get this human body from?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Um?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I, uh..."
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:4.1"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+		"4.1.1",
+		"4.1.2",
+		"4.1.3",
+        "4.1.4"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"4.1.1": {
+	  "id": "4.1.1",
+	  "design_id": "4.1.1",
+	  "label": "On the street",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Ah, I think by the time I took over, I realized I was outside, lots of lights from all directions, all kinds of noises..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I was overwhelmed by all the sensory input."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Even almost got hit by a car as I was still figuring out coordination!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You are so funny!!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yeah, except it almost cost my life..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Can you imagine? Almost dying immediately after entering your host?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Oh god stop it, how embarrassing of you!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Glad you enjoyed the story..."
+		}
+	  ],
+	  "cras": {
+		"C": -1,
+		"R": -2,
+		"A": 1
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:4.1.1"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "5",
+	  "ending_key": null
+	},
+	"4.1.2": {
+	  "id": "4.1.2",
+	  "design_id": "4.1.2",
+	  "label": "In his bedroom",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Ah, I think by the time I took over, I realized I was inside an enclosure."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Quiet."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Almost too quiet, and, too convenient for me."
+		},
+		{
+		  "speaker": "you",
+		  "text": "But I didn't mind! Nothing to lose."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I learned that this is his bedroom, which is a room with a bed. It's like a hideout you come back to."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I know this! I love bedrooms! Lucky you!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "That is where I usually find my food!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "When I find them in these bedrooms they are always not moving! Like they are waiting for me to harvest them!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Bedroom is food room! Food room is good room!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Oh yeah true, nice observation on your part."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Work smart, I respect that."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Thank you!!!"
+		}
+	  ],
+	  "cras": {
+		"C": 2,
+		"R": 1,
+		"A": 1,
+		"S": 1
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:4.1.2"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "5",
+	  "ending_key": null
+	},
+	"4.1.3": {
+	  "id": "4.1.3",
+	  "design_id": "4.1.3",
+	  "label": "Grew with him",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "I was actually inhaled in another human at first, but I failed to latch onto the brain."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Oh, what happened?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Then following blood streams I found this container inside this human, so I went in there and there was actually a very tiny animal in there, INSIDE the big human!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "This one was much weaker, but easier to take over so I did."
+		},
+		{
+		  "speaker": "you",
+		  "text": "It was also insanely gluttonous, ate from a pipe connected directly to its stomach and grew at an impressive speed."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Soon enough I craved more than getting food from the pipe so I pushed my way out of that human."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I was still relatively small back then so I kept consuming whatever they had for me to eat for a while."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Wait... that's kinda like stuck?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Didn't you do anything about it?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I have tried, but it seems like I would be stuck in this body for a while."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Oh..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "A long time?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yeah."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Did you have to do human stuff to blend in?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "When I was weak, I had to, unfortunately. It was definitely a humbling learning experience..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "BORING-"
+		}
+	  ],
+	  "cras": {
+		"C": 1,
+		"R": -2,
+		"A": -3
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:4.1.3"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "5",
+	  "ending_key": null
+	},
+	"4.1.4": {
+	  "id": "4.1.4",
+	  "design_id": "4.1.4",
+	  "label": "Doesn't matter",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "I don't know, does it really matter?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I mean, who cares?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "My goal is done, and I moved on."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Simple as that."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Yup, literally me."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Twins."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yeah."
+		},
+		{
+		  "speaker": "you",
+		  "text": "So."
+		}
+	  ],
+	  "cras": {
+		"C": -3,
+		"R": -3,
+		"A": 3
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:4.1.4"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "5",
+	  "ending_key": null
+	},
+	"3.1": {
+	  "id": "3.1",
+	  "design_id": "3.1",
+	  "label": "Operate body",
+	  "location": "cafe",
+	  "kind": "choices",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "I operate this human body, similar as you do."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Oh, how do you do that?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Uh... let me think..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Hey you know, feels like we have been talking about me for a while, it's not so fair, don't you think? Haha..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "How about... you go first?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Oh my, just where are my manners!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I am very sorry if I came off as intrusive!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "It's just so interesting to me, talking to someone similar yet different!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "And well, as for me..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You could say that I..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Brute forced my way in, if you catch my meaning... hehe..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Ah, yes. Very efficient!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I tried my best to not make a mess, too!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Do you think I deserve a praise for this?!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Absolutely! Good job! You have my salute!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Whew, okay, my turn... I guess..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Yeah! How do you do it?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I..."
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:3.1"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": {
+		"identity_route": "operate_body"
+	  },
+	  "children": [
+		"3.1.2",
+		"3.1.1",
+        "3.1.3"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"3.1.2": {
+	  "id": "3.1.2",
+	  "design_id": "3.1.2",
+	  "label": "Spinal cord",
+	  "location": "cafe",
+	  "kind": "sequence",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "I operate this body through his spinal cord!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Ya know, the uh... central nervous system..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Like, moving around, feeling things, reflexes, stuff like that..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Oooh fancy!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I am very impressed! You know a lot about how it works!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I know nothing about how I work at all!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "For me, everything is just an urge, with zero need for contemplation..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Hungry? I eat. Want something? I take. Hate something? Perish and be happy without it!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "So silly, isn't it?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Nope! Not silly at all!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Don't even dare talking yourself down like that! You have a lot going for you."
+		},
+		{
+		  "speaker": "you",
+		  "text": "First of all, I think you look very pretty; and second, you clearly are-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You... really think I look pretty?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Do you mean it?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yeah! Dead serious."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Wait, do you think as his spine?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Do you see as his spine?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Are you talking to me, as his spine?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "How do you do that?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Sorta? I mean, I don't know exactly, but-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Are you looking at me, through his eyes?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Can this human see me?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Maybe... or... what if... yes?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Oh!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Hewwo! Little human!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I am Idimya! I am on a date with your spine! Nice to meet you!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Psst, does this human think I am pretty, too?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Absolutely!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "He says you are very attractive as well as kind and merciful!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Aww!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "That is adorable!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "So, you and this human live together, as one?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Oh... uh, yeah! Exactly! I actually let him keep his brain and stuff! Haha! The way he thinks is just... never a dull moment!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Amazing!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "So, how do you control the spine? The REAL you?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Do you become the spine? Replace it? Wrap around it?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "How do you do it!!!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Somewhere along those lines, for sure, yeah..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Idimya, confuse..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "How do you think as his spine? You said he thinks? But you also think?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "How do you see as his spine? You said he sees, but you see what he sees?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "How are you talking to me, as his spine?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Because-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "IDIMYA HAS SEEN SPINE BEFORE!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Oh, yes... Idimya has seen many, MANY human spines..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "NONE LIKE THIS!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "SPINE IS LONG STICK THAT HANGS THE HUMAN MEAT!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "SPINE HANGS MEAT WHICH DRAINS AND TURN INTO DELICIOUS JERKY!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "NO THINK! NO SEE! NO TALK!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "NOTHING LIKE THIS!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "IDIMYA NO LIKE!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "IDIMYA NO TRUST!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Idimya thinks... the one talking to me is the human! It's YOU!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You are HUMAN!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Idimya almost considers not eating you..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But now, Idimya sad that Idimya is made fool..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "IDIMYA MAD!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "IDIMYA IS NOT TO BE FUCKED WITH!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "NO HUMAN SEES AND TALKS TO ME LIKE THIS, AND GETS AWAY WITH IT!"
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:3.1.2"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+        "prey_3.1.2"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"prey_3.1.2": {
+	  "id": "prey_3.1.2",
+	  "design_id": "prey",
+	  "label": "",
+	  "location": "cafe",
+	  "kind": "prey",
+	  "lines": [],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"3.1.1": {
+	  "id": "3.1.1",
+	  "design_id": "3.1.1",
+	  "label": "Replace brain",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "I do it by replacing this poor fucking fella's brain!!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Like a... uh... pilot... in a cockpit, or something... as a human would say... which I am definitely not..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Oh!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "So can I see you?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "The REAL you!!!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "NO-"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Not without killing this body... which I would be having a problem with... OBVIOUSLY."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Heh, understandable."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "So what is it like being you?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "It's kinda like..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Well, in simple terms, connect myself to the brainstem and imitate the electrical signals the original human brain would have sent, stuff like that..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Hope it makes sense?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Wow!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You know so much about your anatomy!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You sound sooo smart!!! I like that in a fellow parasite."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Mainly because I don't understand how it works for me at all!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Woah, no need to talk yourself down like that..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I'm sure you have good knowledge in other subjects yourself!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Me? Talking myself down?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Pfft-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "BAHAHAHAHAH!!!!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "This guy... I can't... oh, you humor me..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "No!!! I am COMPLETELY fine with not knowing ANYTHING about how I work!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Everything is just an urge, with zero need for contemplation."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Hungry? I eat. Want something? I take. Hate something? Perish and be happy without it!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "The world is sooo EASY if you are like me!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Unlike your species..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I see no big guns, probably because you maxxed out busy being the brain! What do you consume energy for? Emotions??? Pahahahah-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Does not sound fun to be you at all!!!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Woah, okay, is that you making fun of me?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Also no! Not at all!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I would not want to trade my life for yours; that is not to say I am not open to dating your type. The brain type."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "After all, I would not mind at all being the muscle of a relationship! Hehehe!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Okay, Idimya, sometimes I feel like I can't read you at all..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I am not so hard to read. You just think too hard to interpret a subtext that does not exist."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Weakness of operation as a fully functioning brain."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yeah... maybe... you do have a point."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "It's really not that deep!"
+		}
+	  ],
+	  "cras": {
+		"A": 1
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:3.1.1"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "4.1",
+	  "ending_key": null
+	},
+	"3.1.3": {
+	  "id": "3.1.3",
+	  "design_id": "3.1.3",
+	  "label": "Don't know",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "I barely have any idea on how I took over this body..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "It's like bam, one day I'm here, this is my life now. Just like that."
+		},
+		{
+		  "speaker": "you",
+		  "text": "So you know what?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "The truth is, I don't know..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "YOU DON'T KNOW???"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Is that bad..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Damn it, I wasn't prepared-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "SAME!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Oh, I also have absolutely zero idea how it works for me hehe!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Everything is just an urge, with zero need for contemplation."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Hungry? I eat. Want something? I take. Hate something? Perish and be happy without it!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You know?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But hey!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "However you are doing it... it is working really well for you!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Absolute work of art!!!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Oh!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Heh, I guess you don't have a problem with this, huh..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Not at all!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I am so glad finally someone relates to my experience!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "And the best part is how well integrated you are. I mean, you still smell exactly like a human!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I- I do?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "... is that bad?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "NOOO! Not! At! All!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I love the smell of humans!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I mean, it is my favorite food, after all..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "So why not wear it as my favorite scent too? That way, I can always be reminded of my favorite food!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Don't you agree?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Pfft, yup, totally. You love it, you put a ring on it. It's like, why the hell not, right."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Simple as that, indeed."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Yes, so you agree!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Gawww. We think alike, we like the same smells..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "What is going on? I am feeling dizzy... and fuzzy... hehe... stop it, you..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Okay, and maybe, just maybe, I still wanna bite you a little."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "After this."
+		},
+		{
+		  "speaker": "you",
+		  "text": "WHAT-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Just a nibble! I will be gentle! Pwease?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You smell sooo good!!!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Ugh, fine. Maybe."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "YAY!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I SAID MAYBE-"
+		}
+	  ],
+	  "cras": {
+		"C": -1,
+		"A": 1,
+		"S": 1
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:3.1.3"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "4.1",
+	  "ending_key": null
+	},
+	"3.2": {
+	  "id": "3.2",
+	  "design_id": "3.2",
+	  "label": "Doppelganger",
+	  "location": "cafe",
+	  "kind": "choices",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "My species tend to look almost identical to humans as a disguise, but we are fundamentally different."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Okay... so, are you just stuck looking like this?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "It is what it is."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Haha, how unfortunate!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Even though I am blended with this organic host at all times, at least I still get to see a part of the real me whenever I want to!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "And, you have to admit, it doesn't look that bad, right?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yup haha! Not a bad look for you at all!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Really fits your... aura!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Unlike me, definitely not as cool as you, since I am stuck looking like this, as you put it... lame right? Haha, but yeah, definitely... not a human..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But how?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "How we are fundamentally different from human beings?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Good question by the way haha!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Uhh, well, you know how humans reproduce?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "It's a whole different story how my species comes to existence, for example."
+		},
+		{
+		  "speaker": "you",
+		  "text": "We..."
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:3.2"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": {
+		"identity_route": "doppelganger"
+	  },
+	  "children": [
+		"3.2.3",
+		"3.2.1",
+        "3.2.2"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"3.2.3": {
+	  "id": "3.2.3",
+	  "design_id": "3.2.3",
+	  "label": "Don't know",
+	  "location": "cafe",
+	  "kind": "sequence",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Actually, you know what?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I don't know..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Don't know what?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Don't know how you are different?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yeah..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "How do you reproduce?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I don't know."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Are you from here? If not, how did you get here?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I don't know."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Then how are you so sure you ARE different?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Because, they know?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Humans... they sure know what they are. They even take pride in it!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "But I don't."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Doesn't that make me different?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Hmmm, maybe, but I am still not convinced..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "What even makes a human, human, anyways?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Yeah... you are right!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I don't know the definition of a human being!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I only judge from how they look!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Exactly!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "The way I see it..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "For now, even though I cannot prove to you that I am not human..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I cannot prove to you that I am, either."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "WOW!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "That is... beautiful!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "And honestly, I can relate because I also barely understand how I work."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Everything is just an urge, with zero need for contemplation."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Hungry? I eat. Want something? I take. Hate something? Perish and be happy without it!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But is that all there is? Is this what I am?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "That is worth pondering, and I suggest we can help each other out, get to know each other on a deeper level, if you want?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "This place is closing soon..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Yes!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "And so sorry about earlier. I almost ate you!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "No worries haha, as long as you won't try to eat me from now."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Nooo!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I wanna help you! With an experiment."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Ohhh, I am getting excited! You are gonna love this."
+		},
+		{
+		  "speaker": "you",
+		  "text": "What's on your mind?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "So, from my observation, when I butcher the human, they bleed out and stop moving, and eventually they die."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "What if, I don't eat you, but instead just try to butcher you and see what happens?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "If you are not human, something different might happen!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Wouldn't that be wonderful to find out?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You may not die, you may regenerate, duplicate, go back in time?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Maybe even fuse into my body? Hehe!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Who knows!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Let's find out now!"
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:3.2.3"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+        "prey_3.2.3"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"prey_3.2.3": {
+	  "id": "prey_3.2.3",
+	  "design_id": "prey",
+	  "label": "",
+	  "location": "cafe",
+	  "kind": "prey",
+	  "lines": [],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"3.2.1": {
+	  "id": "3.2.1",
+	  "design_id": "3.2.1",
+	  "label": "No babies",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "So humans, they grow up from these smaller humans, called babies..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "But me, my species as a whole, we don't have that stage of life."
+		},
+		{
+		  "speaker": "you",
+		  "text": "You see, these humans, they love to have sex, because their genes trick them into loving doing it, in order to reproduce."
+		},
+		{
+		  "speaker": "you",
+		  "text": "But it's all an illusion!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "And you do not have this illusion?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Correct."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I am not interested in sexual reproduction at all. Which makes me fundamentally different."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "So what is the meaning of going on a date with me?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Hah, funny you clocked that!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "You did not exactly come expecting to sexually reproduce with me either, did you?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "You came here to feed, because you saw me as food."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Am I wrong?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "True, that was my goal..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "So, same logic, why would I come with the same motive as those stupid sex havers?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Also true..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You really hate them, don't you?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Hatred, grudge, loathing... however you call it. It is my drive, and that's what sets the point of my existence apart."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I entertain myself watching their mundane, superficial, pathetic lives interweave, and yeah, there is a lot of documentation of that on the world wide web."
+		},
+		{
+		  "speaker": "you",
+		  "text": "One site I could really recommend is maternalvoid.com, a legendary hub made for all my entertainment, as well as those like me, who was not reproduced from a mother, and thus we do not empathize with those who were."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Sometimes I think about perishing the masses with my own hands, because I value them the same way they value ants beneath their feet."
+		},
+		{
+		  "speaker": "you",
+		  "text": "They call me an incel and it is exactly what I am. They want to put me in a cell because of their irrational fear for my species."
+		},
+		{
+		  "speaker": "you",
+		  "text": "And for once, they'd be right."
+		},
+		{
+		  "speaker": "you",
+		  "text": "..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "But yeah, that's why my species don't make babies!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "... too edgy for you, perhaps?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Wow..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "That's..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Beautiful!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Perishing the masses..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Maybe we can do that together on our next date!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Ohhh, I am getting excited!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Really?!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "You bought all that bull- I mean I'm glad you... fuck it, fuck yeah, let's go!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Gosh, yeah, and sorry about earlier. I almost ate you!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But I now understand that you really are not one of those humans, even though you look dangerously similar."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Well, maybe not fully understand yet, but..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I think I can tell you apart from now."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "It's actually sooo obvious! I can't believe I ignored the early sign! It's been there this whole time!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yeah?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "And what is that?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Your smell!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "It's the way you smell!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "What?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "There was only once that I smelled anything like this!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "So I was stalking this human, right. He hadn't left his room for days..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I had to impersonate his pizza delivery to lure him out!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Very fatty too, that one..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Actually a little too greasy for my taste. Ough. Would not recommend. I prefer a balanced diet."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But that was pretty extreme!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Most humans don't smell like this at all."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Heh, wow, props to you for that patience! That dedication!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "But, yup, I guess that's how my species tell us apart, unfortunately."
+		},
+		{
+		  "speaker": "you",
+		  "text": "The reek of misanthropy."
+		},
+		{
+		  "speaker": "you",
+		  "text": "It works... most of the time."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Ugh!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Still can't believe I almost took you as my food!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Forgive me!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Especially considering you are probably not tasty at all, judging from that smell! What was I thinking!!!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Ouch..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Okay... phew... this is fine."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Well, I mean, as long as you decide not to eat me anymore, I'll look past it."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Yay!!!"
+		}
+	  ],
+	  "cras": {
+		"C": 1,
+		"R": -3,
+		"A": 1
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:3.2.1"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "4.2",
+	  "ending_key": null
+	},
+	"3.2.2": {
+	  "id": "3.2.2",
+	  "design_id": "3.2.2",
+	  "label": "Steal DNA",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Used to be very small. Bacteria sized."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Really? That is so small!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Wait..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "What is a bacteria?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Ah, you didn't know."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Won't give you a lecture on this, but basically, I was TINY. So small you wouldn't even be able to notice me."
+		},
+		{
+		  "speaker": "you",
+		  "text": "My form was designed for one, simple goal:"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Consume."
+		},
+		{
+		  "speaker": "you",
+		  "text": "My entire body was basically just a digestion tube."
+		},
+		{
+		  "speaker": "you",
+		  "text": "One end in, one end out."
+		},
+		{
+		  "speaker": "you",
+		  "text": "But it doesn't stop there."
+		},
+		{
+		  "speaker": "you",
+		  "text": "The interesting thing about my species, is that we don't digest the DNA. Instead, we either poop it out, or... we replace it with our own."
+		},
+		{
+		  "speaker": "you",
+		  "text": "When my species consume something bigger and stronger, we have the option to basically grow into the thing we eat."
+		},
+		{
+		  "speaker": "you",
+		  "text": "It's always a struggle, capturing and consuming bigger, stronger opponents... but always dangerously rewarding, you know?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "So yeah."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Before this human form, I was walking on all fours, I could growl and I was fast."
+		},
+		{
+		  "speaker": "you",
+		  "text": "And now, this guy you see here, with these two thumbs, that's basically my last big meal!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "And the next one? Who knows?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Wow..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "That's..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Beautiful!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Morphing into what you eat..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Your life sounds full of adventures and randomness!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Scary, sometimes."
+		},
+		{
+		  "speaker": "you",
+		  "text": "But yeah."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Hey..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "If you find a bigger and stronger target you wanna eat, maybe we can hunt it down together on our next date!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Ohhh, I am getting excited!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Really?!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "You bought all that bull- I mean I'm glad you..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "But nah. I can't accept this offer, sadly."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Aww :( why not?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Because what's the point if I didn't defeat my opponent myself?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Would feel like a total imposter that way. Even though our entire existence is kind of already stealing others' existence, you know?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "And frankly, as I now realize, this form I take now is not so optimized for traditional hunting."
+		},
+		{
+		  "speaker": "you",
+		  "text": "But what's the fun, if not fully mastering all potential of this current form before moving on to the next target? The big win, the adrenaline rush, knowing that you fully earned it yourself?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "So yeah. I will not cheat by borrowing your power. I am not about that."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Gosh, the integrity!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "That is admirable!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "So sorry about earlier. I almost ate you!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Heh, apology accepted."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But I now understand that you really are not one of those humans, even though you look dangerously similar."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Well, maybe not fully understand yet, but..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I am happy you let me in on this. I won't tell anyone hehe!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "And I wish you best of luck on your next upgrade!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But hey, I'm curious..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "How are you getting by in the meantime?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "You mean what I eat before I find my next target?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "You know, I can eat about anything this humanoid body is able to digest, so..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Mostly what actual humans eat?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Is that lame?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Yeah, sorry to hear that!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "That sucks!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Thankfully this species never runs out of food availability so I never actually starve."
+		},
+		{
+		  "speaker": "you",
+		  "text": "But I'm trying to not get too comfortable."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Eh, I guess it could be worse..."
+		}
+	  ],
+	  "cras": {
+		"C": 1,
+		"R": 1,
+		"A": 1,
+		"S": 1
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:3.2.2"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": {
+		"stole_dna": true
+	  },
+	  "children": [],
+	  "goto": "4.2",
+	  "ending_key": null
+	},
+	"3.3": {
+	  "id": "3.3",
+	  "design_id": "3.3",
+	  "label": "Cyborg",
+	  "location": "cafe",
+	  "kind": "choices",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "I am a cyborg!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Sai... what is that?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Okay, allow me to explain."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I don't know how long you have been on earth... may I ask, if you don't mind sharing?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Not so long! Still fresh!!! Learning as I go!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I heard a lot of things though."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Okay, good, because a lot may be different now. We are in the future now!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "It is the era of cyborgism now."
+		},
+		{
+		  "speaker": "you",
+		  "text": "So basically, once upon a time, there were only humans."
+		},
+		{
+		  "speaker": "you",
+		  "text": "But now, earth residents consist of humans, and quite a few cyborgs."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You still didn't explain what exactly a cyborg is..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Right, getting there soon."
+		},
+		{
+		  "speaker": "you",
+		  "text": "So we cyborgs start with a human body like everyone, but then..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "YOU HAVE A HUMAN BODY?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "WHY DIDN'T YOU JUST SAY THAT?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "NO NO!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I mean, technically true, but it gets complicated..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "We cyborgs get so many augmentations to our human bodies, you know, so many changes happened to it, that I am now never the human I once was..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "But long story short, we taste bad from all the changes done to our body! Actually. True story, you would not like eating me!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "And cyborgs, in general. Of course."
+		},
+		{
+		  "speaker": "you",
+		  "text": "You should look for a real organic human to eat. Yeah! Organic, natural, tasty. A natty!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Healthier too that way. Yeah. I am just sooo over processed. I am definitely not natty!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Yuck, you make it sound like I am in for a bad ride."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I don't like that at all..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Are you going to tell me what kind of augmentations you got, that makes you taste sooo bad that I should just, let you go?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Glad you asked!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "For example, I got..."
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:3.3"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": {
+		"identity_route": "cyborg"
+	  },
+	  "children": [
+		"3.3.2",
+		"3.3.3",
+        "3.3.1"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"3.3.2": {
+	  "id": "3.3.2",
+	  "design_id": "3.3.2",
+	  "label": "Braces",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "See these braces?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Braces?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yeah the metal appendages on my teeth. You can't take them off even if you try."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Ohh, let me guess! Do they give you more bite strength?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Uh- y-yeah! Actually, yes."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Awesome!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Can you get me those too?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I love hearing the screams of humans as I tear them into shreds!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yeah... maybe... I could hook you up with my doc... I mean someone."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Awesome!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I am so glad we met!!! You are so cool!!!"
+		}
+	  ],
+	  "cras": {
+		"R": -2
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:3.3.2"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "4.2",
+	  "ending_key": null
+	},
+	"3.3.3": {
+	  "id": "3.3.3",
+	  "design_id": "3.3.3",
+	  "label": "Testosterone slow-release implant",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Welp, this one is a little private, but since you asked so nicely..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "So I have this implant in my body that gives me a strength boost and stuff."
+		},
+		{
+		  "speaker": "you",
+		  "text": "How it works is basically it stays right under my skin, and steadily releases testosterone, with the effects I mentioned. It's pretty powerful..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I mean it makes me even stronger than I already am, I mean stronger than most humans, and I definitely did not have lower than average testosterone level which needed hormone replacement therapy treatment to begin with... yup..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I mean, who doesn't want to be stronger, right?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Uhh... does that make sense?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Yeah! Who doesn't want to be stronger! I love being strong!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I love seeing the fear in humans' eyes when I hunt them down, tear them into shreds!!!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Heh, yeah, exactly! Who doesn't!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "So you get it!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You don't look very strong though..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Some humans take me one bite and a half, but some only take one bite, and I eyeball you to be... no more than that..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Bigger does not mean stronger! It's the..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Density."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yeah!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "It's like, the difference of 1kg of cotton and 1kg of iron!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "And I am like steel! I am uhh... too lean and too much hard bones that would hurt to chew!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "And also it's all over in my blood stream making me taste all rusty and shit."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Yikes!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "That doesn't sound very fun..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "And not very tasty..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Exactly!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Phew..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "So, where is this implant? Can I see it?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "NOPE-"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I told you this one is private!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Not now and here, at least..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Whoopsie, sorry!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Later?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Maybe..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yeah... maybe..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "YAY! It's a deal!!!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I SAID MAYBE-"
+		}
+	  ],
+	  "cras": {
+		"R": -2
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:3.3.3"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "4.2",
+	  "ending_key": null
+	},
+	"3.3.1": {
+	  "id": "3.3.1",
+	  "design_id": "3.3.1",
+	  "label": "Glasses",
+	  "location": "cafe",
+	  "kind": "sequence",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "See these glasses?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Glasses?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Also known as a vision enhancer."
+		},
+		{
+		  "speaker": "you",
+		  "text": "They call me \"four-eyes\" because it works exactly like how it sounds!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "It gives you two more eyes?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "What happens if you take it off?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Well, it's detachable, but I need it, it is still a part of m-"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Hey!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Give it back!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Or else what?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Aww, look at you... you look..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Nerfed..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You look like an injured gazelle, falling behind the pack..."
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:3.3.1"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+        "prey_3.3.1"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"prey_3.3.1": {
+	  "id": "prey_3.3.1",
+	  "design_id": "prey",
+	  "label": "",
+	  "location": "cafe",
+	  "kind": "prey",
+	  "lines": [],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"7.1": {
+	  "id": "7.1",
+	  "design_id": "7.1",
+	  "label": "Found a corpse",
+	  "location": "cafe",
+	  "kind": "choices",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "I stumbled upon this body, already stopped moving."
+		},
+		{
+		  "speaker": "you",
+		  "text": "It was..."
+		}
+	  ],
+	  "cras": {
+		"R": 2,
+		"A": -2
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:7.1"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+		"7.1.1",
+		"7.1.2",
+        "7.1.3"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"7.1.1": {
+	  "id": "7.1.1",
+	  "design_id": "7.1.1",
+	  "label": "Rotten",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Out for however many days?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Some greens, some purple, you could barely tell it was once human if it weren't for the silhouette..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I was joined by some maggots popping in and out..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "And I was desperate."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "EWWW!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I don't know how you do it! I can't!"
+		}
+	  ],
+	  "cras": {
+		"R": 2,
+		"A": -1
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:7.1.1"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "8",
+	  "ending_key": null
+	},
+	"7.1.2": {
+	  "id": "7.1.2",
+	  "design_id": "7.1.2",
+	  "label": "Out cold",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Out for a while, it seems..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Dehydrated, pale..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "It was not ideal, but, could be worse, so I did not complain much."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I see!"
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:7.1.2"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "8",
+	  "ending_key": null
+	},
+	"7.1.3": {
+	  "id": "7.1.3",
+	  "design_id": "7.1.3",
+	  "label": "Still hot",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Barely out of pulse, still warm..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Some steam coming out the body..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Blood still red..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "YUM!"
+		}
+	  ],
+	  "cras": {
+		"R": -2,
+		"A": 1
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:7.1.3"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "8",
+	  "ending_key": null
+	},
+	"7.2": {
+	  "id": "7.2",
+	  "design_id": "7.2",
+	  "label": "Accidental murder",
+	  "location": "cafe",
+	  "kind": "choices",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "I did it by accident."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "How?"
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:7.2"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+		"7.2.1",
+        "7.2.2"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"7.2.1": {
+	  "id": "7.2.1",
+	  "design_id": "7.2.1",
+	  "label": "Car accident",
+	  "location": "cafe",
+	  "kind": "branch",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "I was driving late on a long road trip..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "It was REALLY dark on those suburban roads..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I panicked trying to hide the body, but turns out, it was well off into my digestive system..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Pretty exhilarating, actually... you have to be there..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I bet..."
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:7.2.1"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+		"7.2.1.1",
+        "7.2.1.2"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"7.2.1.1": {
+	  "id": "7.2.1.1",
+	  "design_id": "7.2.1.1",
+	  "label": "",
+	  "location": "cafe",
+	  "kind": "sequence",
+	  "lines": [
+		{
+		  "speaker": "idimya",
+		  "text": "..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Wait."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "...driving?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yeah!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Like a wagon that takes you from point A to point B."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I thought you were a dog before this?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You said your current body was your first human meal!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I knew it! I knew something was off!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "DIE, LIAR!"
+		}
+	  ],
+	  "cras": {},
+	  "requires": {
+		"op": "and",
+		"terms": [
+		  {
+			"token": "3.2.2",
+			"value": true
+		  }
+		]
+	  },
+	  "sets": [
+        "picked:7.2.1.1"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+        "prey_7.2.1.1"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"prey_7.2.1.1": {
+	  "id": "prey_7.2.1.1",
+	  "design_id": "prey",
+	  "label": "",
+	  "location": "cafe",
+	  "kind": "prey",
+	  "lines": [],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"7.2.1.2": {
+	  "id": "7.2.1.2",
+	  "design_id": "7.2.1.2",
+	  "label": "",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [],
+	  "cras": {},
+	  "requires": {
+		"op": "and",
+		"terms": [
+		  {
+			"token": "3.2.2",
+			"value": false
+		  }
+		]
+	  },
+	  "sets": [
+        "picked:7.2.1.2"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "8",
+	  "ending_key": null
+	},
+	"7.2.2": {
+	  "id": "7.2.2",
+	  "design_id": "7.2.2",
+	  "label": "Self defense",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "The human came at me first..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I merely fought back trying to protect myself."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I was really struggling because it was kind of a big guy."
+		},
+		{
+		  "speaker": "you",
+		  "text": "And then, I went too far..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "But then, I figured, since I already did it, there was no way back, so why not just stick around and enjoy a good meal while it was fresh."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I see..."
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:7.2.2"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "8",
+	  "ending_key": null
+	},
+	"7.3": {
+	  "id": "7.3",
+	  "design_id": "7.3",
+	  "label": "Deliberate murder",
+	  "location": "cafe",
+	  "kind": "choices",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Had to do it to 'em."
+		},
+		{
+		  "speaker": "you",
+		  "text": "The first time wasn't easy."
+		},
+		{
+		  "speaker": "you",
+		  "text": "But it has to be done."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "How did you kill them?"
+		}
+	  ],
+	  "cras": {
+		"R": -1,
+		"A": 1
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:7.3"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+		"7.3.1",
+        "7.3.2"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"7.3.1": {
+	  "id": "7.3.1",
+	  "design_id": "7.3.1",
+	  "label": "Just teeth",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "I didn't get these canines for nothing, you know?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I was just, heads on with it. It was brutal."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Had my full face covered in red and I didn't care to stop."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "HOLY SHIT, I LIKE THE SOUND OF THAT SO MUCH-"
+		}
+	  ],
+	  "cras": {
+		"C": -2,
+		"R": -2,
+		"A": 1,
+		"S": 1
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:7.3.1"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "8",
+	  "ending_key": null
+	},
+	"7.3.2": {
+	  "id": "7.3.2",
+	  "design_id": "7.3.2",
+	  "label": "A weapon",
+	  "location": "cafe",
+	  "kind": "branch",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "You know, humans pride themselves over using tools. That's supposed to be one of the things that make them... superior, to other species?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "And guess what?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "That's ironically how I scored MY first body of theirs!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I should really introduce you to some of these..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Man, they really do love inventing ways to hurt and butcher themselves, and each other. Which I do not mind at all!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Interesting..."
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:7.3.2"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+		"7.3.2.1",
+        "7.3.2.2"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"7.3.2.1": {
+	  "id": "7.3.2.1",
+	  "design_id": "7.3.2.1",
+	  "label": "",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [],
+	  "cras": {
+		"C": 2,
+		"R": 2,
+		"A": -1
+	  },
+	  "requires": {
+		"op": "and",
+		"terms": [
+		  {
+			"token": "3.2.2",
+			"value": false
+		  }
+		]
+	  },
+	  "sets": [
+        "picked:7.3.2.1"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "8",
+	  "ending_key": null
+	},
+	"7.3.2.2": {
+	  "id": "7.3.2.2",
+	  "design_id": "7.3.2.2",
+	  "label": "",
+	  "location": "cafe",
+	  "kind": "sequence",
+	  "lines": [
+		{
+		  "speaker": "idimya",
+		  "text": "Using... tools?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yeah!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "A knife, a gun... something you can hold in your hand as an extension to do things you normally can't."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I thought you were a dog before this?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You said your current body was your first human meal!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I knew it! I knew something was off!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "DIE, LIAR!"
+		}
+	  ],
+	  "cras": {},
+	  "requires": {
+		"op": "and",
+		"terms": [
+		  {
+			"token": "3.2.2",
+			"value": true
+		  }
+		]
+	  },
+	  "sets": [
+        "picked:7.3.2.2"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+        "prey_7.3.2.2"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"prey_7.3.2.2": {
+	  "id": "prey_7.3.2.2",
+	  "design_id": "prey",
+	  "label": "",
+	  "location": "cafe",
+	  "kind": "prey",
+	  "lines": [],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"8.1": {
+	  "id": "8.1",
+	  "design_id": "8.1",
+	  "label": "Raw",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Definitely raw! Timeless classic. You saw it coming, didn't you."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "No way!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "That's my favorite too!!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yeah, I can tell."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Stop it!!! I am getting hungry!!!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yeah?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Don't you just love the thought of bright red, hot and fresh blood pouring out of a nice cut, and then freely sucking on it..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Oooh, yes, keep going!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Plus point if they are still alive!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I would be digging deep in their guts and looking into their eyes..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "That's the best feeling ever!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "You think?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Oh yeah, and don't forget how tearing the flesh and skin from random directions makes it taste better, somehow."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Yes!!! OMG. I noticed that too!! I thought I was the only one!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You really do get it!!!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yeah. I do."
+		}
+	  ],
+	  "cras": {
+		"C": -1,
+		"A": 1,
+		"S": 1
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:8.1"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "9",
+	  "ending_key": null
+	},
+	"8.2": {
+	  "id": "8.2",
+	  "design_id": "8.2",
+	  "label": "Cooked",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "These days I like to prep it nicely."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Learned it from the very humans themselves, actually."
+		},
+		{
+		  "speaker": "you",
+		  "text": "So, get this:"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Somehow, heating them up with fire, makes them even tastier. You follow?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "NOPE, but I am intrigued!!!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "You see, I like to be precise and have full control over my food, even after its death."
+		},
+		{
+		  "speaker": "you",
+		  "text": "And since this humanoid body of mine happens to be equipped with an enormous amount of taste buds, why not put that to the test."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I guess that makes sense..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "If you serve it cooked, you have absolutely full control over your food. And there are so many ways to make each body part taste different, and you could always invent new ones!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "It's like a ritual of some sorts, always leaving me feeling... a kind of satisfaction that you just can't quite get from serving it raw."
+		},
+		{
+		  "speaker": "you",
+		  "text": "So I never went back."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "This sounds so unbelievably advanced. I will definitely have to see it for myself."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I can show you how it's done!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Yes please!"
+		}
+	  ],
+	  "cras": {
+		"C": 1,
+		"A": -1
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:8.2"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "9",
+	  "ending_key": null
+	},
+	"9.1": {
+	  "id": "9.1",
+	  "design_id": "9.1",
+	  "label": "Have empathy",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Ever feel empathy for humans, when you eat them?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I'm asking because... you thought I was a human, and you talked to me."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "So?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Do you talk to humans?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Yeah!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "But do you ever feel for them?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Nope!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I talk to lure them in, bring their guard down! It is, part of the hunt?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Ah... yeah, makes sense."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Pfft. What kind of question is that!"
+		}
+	  ],
+	  "cras": {
+		"A": -2
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:9.1"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "outcome",
+	  "ending_key": null
+	},
+	"9.2": {
+	  "id": "9.2",
+	  "design_id": "9.2",
+	  "label": "Find humans cute",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Ever find humans cute?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Pfft. What kind of question is that!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Like, your human form... is pretty cute, you should be aware of that, right."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Can you tell if some humans are cuter than others?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "More or less..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Do you feel mercy for the cuter ones haha?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Eh, no difference."
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:9.2"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "outcome",
+	  "ending_key": null
+	},
+	"9.3": {
+	  "id": "9.3",
+	  "design_id": "9.3",
+	  "label": "Favorite part to eat",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Do you have a favorite part to eat?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Like one part you just can't live without?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Good question! Hehe..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I would say it's probably..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Human blood?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Really? Blood?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "STOPPP-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Is it really lame?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Not necessarily? I expected something much more hardcore..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "That sounds exactly like you find it lame!!!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Idimya no!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I don't find it lame! Promise!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Nothing you do is lame!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I also really like blood!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Hey..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Did you know when you let the blood dry, it can become like pudding?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Blood... pudding?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yes!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Cute and romantic! Perfect for a date snack!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I can show you some time! I'm sure you would love it!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Pfft-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Not a bad idea..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I just might consider it!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Suit yourself haha."
+		}
+	  ],
+	  "cras": {
+		"A": 2,
+		"S": 1
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:9.3"
+	  ],
+	  "meta_sets": [
+        "knows_idimya_likes_blood"
+	  ],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "outcome",
+	  "ending_key": null
+	},
+	"outcome": {
+	  "id": "outcome",
+	  "design_id": "10",
+	  "label": "Calculating outcome",
+	  "location": "cafe",
+	  "kind": "outcome",
+	  "lines": [],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:10"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "@outcome",
+	  "ending_key": null
+	},
+	"5.4.3": {
+	  "id": "5.4.3",
+	  "design_id": "5.4.3",
+	  "label": "Why",
+	  "location": "cafe",
+	  "kind": "choices",
+	  "lines": [],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:5.4.3"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+		"5.4.3.1",
+		"5.4.3.2",
+		"5.4.3.3",
+        "5.4.3.4"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"5.4.3.1": {
+	  "id": "5.4.3.1",
+	  "design_id": "5.4.3.1",
+	  "label": "Because being stronger doesn't make me right.",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Because I've come to understand what it means to be the one in power."
+		},
+		{
+		  "speaker": "you",
+		  "text": "More power, more intelligence... come with more responsibility, to use this strength with care."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Just because I could kill and eat human... doesn't mean it is the right thing to do, by default."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But... why?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "That sounds so boring!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Because if strength creates the right to kill, then I have to accept the same rule when I meet something stronger than me."
+		},
+		{
+		  "speaker": "you",
+		  "text": "But I don't want to."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I want to live. I want my species to live on."
+		},
+		{
+		  "speaker": "you",
+		  "text": "That's why I can't honestly call the rule fair only while I'm the one in power."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Because, who knows?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "One day, you are thriving on earth."
+		},
+		{
+		  "speaker": "you",
+		  "text": "But some other day, you may find yourself being preyed upon, with a fate you don't even have the time or capacity to understand, because the ones in power simply deny you of that."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Is this really worth it?"
+		}
+	  ],
+	  "cras": {
+		"C": -1,
+		"R": -1,
+		"A": 1
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:5.4.3.1"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "5.4.4",
+	  "ending_key": null
+	},
+	"5.4.3.2": {
+	  "id": "5.4.3.2",
+	  "design_id": "5.4.3.2",
+	  "label": "Because I started seeing individuals instead of a species.",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "... good question."
+		},
+		{
+		  "speaker": "you",
+		  "text": "You know, I knew humans long before I knew any human."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "What do you mean?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Humans, as a category."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Noisy. Weak. Abundant."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Edible."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Yeah! They sure are!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "But then... then I started learning stupid little things about individual ones."
+		},
+		{
+		  "speaker": "you",
+		  "text": "What they were afraid of."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Who they missed."
+		},
+		{
+		  "speaker": "you",
+		  "text": "What they are looking forward to doing, should their lives be spared."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Their habits, patterns. Similarities and differences."
+		},
+		{
+		  "speaker": "you",
+		  "text": "You notice it too, don't you?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Really? That's it?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yup. That's all it takes."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Eventually, \"a human\" stopped being enough information for me to decide what their life was worth."
+		}
+	  ],
+	  "cras": {
+		"C": 2,
+		"R": 2,
+		"A": -2
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:5.4.3.2"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "5.4.4",
+	  "ending_key": null
+	},
+	"5.4.3.3": {
+	  "id": "5.4.3.3",
+	  "design_id": "5.4.3.3",
+	  "label": "Because I didn't like how it made me.",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Because eventually I realized I wasn't making any decisions for myself."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "What do you mean? You decide to hunt and eat them, no?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Seems that way, right?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "But not quite, if you think about it."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I got hungry, I wanted a human, I killed the human."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Same sequence every time."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Not so much of a decision. More like muscle memory."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Mere slavery to my appetite."
+		},
+		{
+		  "speaker": "you",
+		  "text": "But..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "If every urge I have becomes an order I obey, then what's actually in control of me?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "I thought to myself: I am more than this. Why else am I superior to the ones I hunt?"
+		}
+	  ],
+	  "cras": {
+		"A": -1
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:5.4.3.3"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "5.4.4",
+	  "ending_key": null
+	},
+	"5.4.3.4": {
+	  "id": "5.4.3.4",
+	  "design_id": "5.4.3.4",
+	  "label": "Because eventually humans will notice and fight back.",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Because humans are really, really bad prey once enough of them find out you're eating them."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But they are so dumb, and tiny!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Individually, yes."
+		},
+		{
+		  "speaker": "you",
+		  "text": "But systematically, that's where I beg to differ."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Idimya, they have satellites! Databases! Helicopters! Forensic labs!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "And believe it or not, they have entire government departments whose only purpose is to figure out whoever keeps making people disappear."
+		},
+		{
+		  "speaker": "you",
+		  "text": "This is exactly why I stay in the clear these days."
+		},
+		{
+		  "speaker": "you",
+		  "text": "They are out to get us, Idimya, they always find their way! And we are outnumbered!"
+		}
+	  ],
+	  "cras": {
+		"C": 1,
+		"R": 1,
+		"A": 2
+	  },
+	  "requires": {
+		"op": "and",
+		"terms": [
+		  {
+			"token": "5.4.2.1",
+			"value": true
+		  }
+		]
+	  },
+	  "sets": [
+        "picked:5.4.3.4"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "5.4.3.4.1",
+	  "ending_key": null
+	},
+	"5.4.4": {
+	  "id": "5.4.4",
+	  "design_id": "5.4.4",
+	  "label": "Difference",
+	  "location": "cafe",
+	  "kind": "branch",
+	  "lines": [],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:5.4.4"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+		"5.4.4.1",
+        "5.4.4.2"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"5.4.4.1": {
+	  "id": "5.4.4.1",
+	  "design_id": "5.4.4.1",
+	  "label": "",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "idimya",
+		  "text": "Hmmm..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You might have a point..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "A challenging one, I must say..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But what difference does that make?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Humans eat humans. Humans kill humans. Things eat humans. I eat humans."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You stop, there is one less."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Even if I stop, there are two less."
+		}
+	  ],
+	  "cras": {},
+	  "requires": {
+		"op": "and",
+		"terms": [
+		  {
+			"token": "5.4.2.1",
+			"value": true
+		  }
+		]
+	  },
+	  "sets": [
+        "picked:5.4.4.1"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "5.4.5",
+	  "ending_key": null
+	},
+	"5.4.4.2": {
+	  "id": "5.4.4.2",
+	  "design_id": "5.4.4.2",
+	  "label": "",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "idimya",
+		  "text": "Hmmm..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You might have a point..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "A challenging one, I must say..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But what difference does that make?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Humans eat humans. Humans kill humans. Things eat humans. I eat humans."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Even if you stop, there is only one less."
+		}
+	  ],
+	  "cras": {},
+	  "requires": {
+		"op": "and",
+		"terms": [
+		  {
+			"token": "5.4.2.2",
+			"value": true
+		  }
+		]
+	  },
+	  "sets": [
+        "picked:5.4.4.2"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "5.4.5",
+	  "ending_key": null
+	},
+	"5.4.5": {
+	  "id": "5.4.5",
+	  "design_id": "5.4.5",
+	  "label": "Why bother",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "idimya",
+		  "text": "But everything else keeps happening."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "So why bother?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "You are right, I can't change much."
+		},
+		{
+		  "speaker": "you",
+		  "text": "And most of how it is remains outside of my control."
+		},
+		{
+		  "speaker": "you",
+		  "text": "The only real difference I can make is on the ones whose life I spared. But even then, it's not a guaranteed lifetime safety ticket for them either."
+		},
+		{
+		  "speaker": "you",
+		  "text": "They still suffer and die, one way or another."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Sounds like you can't even convince yourself."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Lame-"
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:5.4.5"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "outcome__2",
+	  "ending_key": null
+	},
+	"5.4.3.4.1": {
+	  "id": "5.4.3.4.1",
+	  "design_id": "5.4.3.4.1",
+	  "label": "How",
+	  "location": "cafe",
+	  "kind": "choices",
+	  "lines": [
+		{
+		  "speaker": "idimya",
+		  "text": "That... gives me the ick!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Ugh!! Why do humans have to be so... inconvenient!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But, fine!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "For the sake of not getting caught! What should I eat instead?"
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:5.4.3.4.1"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [
+		"5.4.3.4.1.1",
+        "5.4.3.4.1.2"
+	  ],
+	  "goto": null,
+	  "ending_key": null
+	},
+	"5.4.3.4.1.1": {
+	  "id": "5.4.3.4.1.1",
+	  "design_id": "5.4.3.4.1.1",
+	  "label": "Farm animals",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "Farm animals."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Farm animals?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yeah! Cows, pigs, chickens."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Humans already breed billions of them specifically to be eaten. Guess why?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "They don't think or feel like humans do. They don't have plans, ambitions, families waiting for them. They don't understand what's happening the same way we do."
+		},
+		{
+		  "speaker": "you",
+		  "text": "And most importantly: they don't know how to fight back. No calling the police, whatsoever. That's simply not in their conception."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Once dead, they are gone forever."
+		},
+		{
+		  "speaker": "you",
+		  "text": "See? Easier to catch, AND with fewer consequences."
+		},
+		{
+		  "speaker": "you",
+		  "text": "And my favorite part? They taste just as if not more delicious!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "WHAT-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "That actually does sound awesome!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Sure I might miss some of the thrill of the hunt, but this sounds way too convenient to pass on!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yup, hunger solved, threat removed, everyone happy."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "True, true!"
+		}
+	  ],
+	  "cras": {
+		"A": 1
+	  },
+	  "requires": null,
+	  "sets": [
+        "picked:5.4.3.4.1.1"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "outcome__3",
+	  "ending_key": null
+	},
+	"5.4.3.4.1.2": {
+	  "id": "5.4.3.4.1.2",
+	  "design_id": "5.4.3.4.1.2",
+	  "label": "Tomato juice",
+	  "location": "cafe",
+	  "kind": "line",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "You like drinking blood, right?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Yes!!! Love blood!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Like, if there is something you absolutely can't go without. It's blood isn't it?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "YES!!! How did you know?"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Well... let's just say I am not bad at reading people, haha."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Point is..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "You are missing out."
+		},
+		{
+		  "speaker": "you",
+		  "text": "One human only has around 5 liters of blood."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Of which, if you don't drink up at once, it oxidizes and starts tasting bad. Which would be a waste!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "But! There are so many blood substitutes out there that are right under your radar."
+		},
+		{
+		  "speaker": "you",
+		  "text": "I could not recommend tomato juice enough. It tastes uncannily similar to blood, and you can get it in smaller packages however much you need! Much easier to store as well."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "WHAT-"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "That actually does sound awesome!!!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Sure I might miss some of the thrill of the hunt, but this sounds way too convenient to pass on!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yup, hunger solved, threat removed, everyone happy."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "True, true!"
+		}
+	  ],
+	  "cras": {
+		"A": 1,
+		"S": 3
+	  },
+	  "requires": {
+		"op": "and",
+		"terms": [
+		  {
+			"token": "9.3",
+			"value": true
+		  }
+		]
+	  },
+	  "sets": [
+        "picked:5.4.3.4.1.2"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "outcome__3",
+	  "ending_key": null
+	},
+	"outcome__2": {
+	  "id": "outcome__2",
+	  "design_id": "10",
+	  "label": "Calculating outcome",
+	  "location": "cafe",
+	  "kind": "outcome",
+	  "lines": [],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:10"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "@outcome",
+	  "ending_key": null
+	},
+	"outcome__3": {
+	  "id": "outcome__3",
+	  "design_id": "5.4.3.4.2",
+	  "label": "Calculating outcome",
+	  "location": "cafe",
+	  "kind": "outcome",
+	  "lines": [],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [
+        "picked:5.4.3.4.2"
+	  ],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "@outcome",
+	  "ending_key": null
+	},
+	"values_compass": {
+	  "id": "values_compass",
+	  "design_id": "values compass",
+	  "label": "",
+	  "location": "cafe",
+	  "kind": "outcome",
+	  "lines": [
+		{
+		  "speaker": "you",
+		  "text": "VALUES COMPASS"
+		},
+		{
+		  "speaker": "you",
+		  "text": "C > 0, R > 0"
+		},
+		{
+		  "speaker": "you",
+		  "text": "→ FASCINATED"
+		},
+		{
+		  "speaker": "you",
+		  "text": "C > 0, R <= 0"
+		},
+		{
+		  "speaker": "you",
+		  "text": "→ OBSESSIVE"
+		},
+		{
+		  "speaker": "you",
+		  "text": "C <= 0, R > 0"
+		},
+		{
+		  "speaker": "you",
+		  "text": "→ COEXISTENT"
+		},
+		{
+		  "speaker": "you",
+		  "text": "C <= 0, R <= 0"
+		},
+		{
+		  "speaker": "you",
+		  "text": "→ PREDATORY"
+		},
+		{
+		  "speaker": "you",
+		  "text": "IDIMYA VALUE ALIGNMENT"
+		},
+		{
+		  "speaker": "you",
+		  "text": "C <= -2 AND R <= -3"
+		},
+		{
+		  "speaker": "you",
+		  "text": "→ ALIGNED"
+		},
+		{
+		  "speaker": "you",
+		  "text": "VERDICT"
+		},
+		{
+		  "speaker": "you",
+		  "text": "ALIGNED"
+		},
+		{
+		  "speaker": "you",
+		  "text": "OR"
+		},
+		{
+		  "speaker": "you",
+		  "text": "A >= 4"
+		},
+		{
+		  "speaker": "you",
+		  "text": "→ ALLY"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Otherwise"
+		},
+		{
+		  "speaker": "you",
+		  "text": "→ RIVAL"
+		},
+		{
+		  "speaker": "you",
+		  "text": "SECRET CRUSH"
+		},
+		{
+		  "speaker": "you",
+		  "text": "S >= 4"
+		},
+		{
+		  "speaker": "you",
+		  "text": "→ SECRET CRUSH"
+		},
+		{
+		  "speaker": "you",
+		  "text": "FINAL"
+		},
+		{
+		  "speaker": "you",
+		  "text": "ALLY"
+		},
+		{
+		  "speaker": "you",
+		  "text": "ALLY + SECRET CRUSH"
+		},
+		{
+		  "speaker": "you",
+		  "text": "RIVAL"
+		},
+		{
+		  "speaker": "you",
+		  "text": "RIVAL + SECRET CRUSH"
+		},
+		{
+		  "speaker": "you",
+		  "text": "→ Idimya spares him"
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": "@outcome",
+	  "ending_key": null
+	},
+	"ending_ally": {
+	  "id": "ending_ally",
+	  "design_id": "ending: ALLY",
+	  "label": "",
+	  "location": "ending",
+	  "kind": "ending",
+	  "lines": [
+		{
+		  "speaker": "idimya",
+		  "text": "Welp!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Our little date has been fun and all..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But I have to go."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Still a hungry stomach to feed."
+		},
+		{
+		  "speaker": "you",
+		  "text": "So... you will not eat me, right?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Haha! You are so silly!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Of course not!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "It is clear that you are one of us, and I should not have come on to you in the first place!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Well, I better get going!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Would be happy to see you around sometime...!"
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": null,
+	  "ending_key": "ally"
+	},
+	"ending_ally_crush": {
+	  "id": "ending_ally_crush",
+	  "design_id": "ending: ALLY (+ secret crush)",
+	  "label": "",
+	  "location": "ending",
+	  "kind": "ending",
+	  "lines": [
+		{
+		  "speaker": "idimya",
+		  "text": "Welp!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Our little date has been fun and all..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But I have to go."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Still a hungry stomach to feed."
+		},
+		{
+		  "speaker": "you",
+		  "text": "So... you will not eat me, right?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Haha! You are so silly!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Of course not!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "It is clear that you are one of us, and I should not have come on to you in the first place!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Well, I better get going!"
+		},
+		{
+		  "speaker": "you",
+		  "text": "Okay, good night! Safe travels home!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Wait!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "..."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Yes?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You don't happen to be free... same time tomorrow, do you?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I would love to see you again... soon..."
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": null,
+	  "ending_key": "ally_crush"
+	},
+	"ending_rival": {
+	  "id": "ending_rival",
+	  "design_id": "ending: RIVAL",
+	  "label": "",
+	  "location": "ending",
+	  "kind": "ending",
+	  "lines": [
+		{
+		  "speaker": "idimya",
+		  "text": "Welp!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Our little date has been fun and all..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But I have to go."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Still a hungry stomach to feed."
+		},
+		{
+		  "speaker": "you",
+		  "text": "So... you will not eat me, right?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Haha! You are so silly!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Of course not!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But that reminds me..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You and I, we... don't seem to hold the same values. Yet, we are on the same level of the food chain."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Big trouble."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "If your kind poses a threat to mine... no... I must not risk it. It cannot happen."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I am sorry, but I can't let you go home, I'm afraid..."
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": null,
+	  "ending_key": "rival"
+	},
+	"ending_rival_crush": {
+	  "id": "ending_rival_crush",
+	  "design_id": "ending: RIVAL (+ secret crush)",
+	  "label": "",
+	  "location": "ending",
+	  "kind": "ending",
+	  "lines": [
+		{
+		  "speaker": "idimya",
+		  "text": "Welp!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Our little date has been fun and all..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But I have to go."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Still a hungry stomach to feed."
+		},
+		{
+		  "speaker": "you",
+		  "text": "So... you will not eat me, right?"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Haha! You are so silly!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Of course not!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "But that reminds me..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "You and I, we... don't seem to hold the same values. Yet, we are on the same level of the food chain."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Big trouble."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "If your kind poses a threat to mine... no... I must not risk it. It cannot happen."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "In theory... I should not let you go."
+		},
+		{
+		  "speaker": "you",
+		  "text": "Idimya, but we had such good conversation!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Yes, we did... and that's why this is so hard for me!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I should have shredded you into pieces by now..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "And yet, a part of me hates to see you killed... and even wishes to be sweet to you..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "A wish that defies my nature. Completely."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "GO!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "Go back to where you are supposed to be, before my bloodlust gets the best of me!"
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I won't follow you home... this time."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "And then... let's just say you don't bother me, I won't bother you."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "And that should be best."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "I hope to never see you again... or else, I don't know how to live with such immense internal conflict..."
+		},
+		{
+		  "speaker": "idimya",
+		  "text": "So please, just leave me alone..."
+		}
+	  ],
+	  "cras": {},
+	  "requires": null,
+	  "sets": [],
+	  "meta_sets": [],
+	  "semantic_sets": null,
+	  "children": [],
+	  "goto": null,
+	  "ending_key": "rival_crush"
+	}
+  }
+}
