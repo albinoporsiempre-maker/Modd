@@ -1,0 +1,256 @@
+[gd_scene format=3 uid="uid://c0results01"]
+
+[ext_resource type="Theme" path="res://ui/clinical.tres" id="1"]
+[ext_resource type="Script" uid="uid://dcgcxrv70dek1" path="res://ui/ResultsScreen.gd" id="2"]
+[ext_resource type="Script" uid="uid://fqdpeexrtohg" path="res://ui/ValuesCompass.gd" id="3"]
+
+[sub_resource type="StyleBoxFlat" id="card"]
+bg_color = Color(0.07, 0.07, 0.1, 0.98)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[node name="ResultsScreen" type="Control" unique_id=640302976]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1")
+script = ExtResource("2")
+
+[node name="Dim" type="ColorRect" parent="." unique_id=1735558519]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 1
+color = Color(0.02, 0.02, 0.03, 0.3)
+
+[node name="CG" type="TextureRect" parent="." unique_id=155241098]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+expand_mode = 1
+stretch_mode = 6
+
+[node name="Outer" type="MarginContainer" parent="." unique_id=1368958052]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 48
+theme_override_constants/margin_top = 28
+theme_override_constants/margin_right = 48
+theme_override_constants/margin_bottom = 28
+
+[node name="Card" type="PanelContainer" parent="Outer" unique_id=1310476509]
+layout_mode = 2
+theme_override_styles/panel = SubResource("card")
+
+[node name="Pad" type="MarginContainer" parent="Outer/Card" unique_id=137857975]
+layout_mode = 2
+theme_override_constants/margin_left = 28
+theme_override_constants/margin_top = 22
+theme_override_constants/margin_right = 28
+theme_override_constants/margin_bottom = 22
+
+[node name="Pages" type="Control" parent="Outer/Card/Pad" unique_id=1562802311]
+layout_mode = 2
+
+[node name="Page1" type="VBoxContainer" parent="Outer/Card/Pad/Pages" unique_id=898061097]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 12
+
+[node name="V1" type="VBoxContainer" parent="Outer/Card/Pad/Pages/Page1" unique_id=495414336]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/separation = 12
+
+[node name="AttitudeLabel" type="Label" parent="Outer/Card/Pad/Pages/Page1/V1" unique_id=650166767]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.62, 0.62, 0.72, 1)
+theme_override_font_sizes/font_size = 15
+text = "YOUR ATTITUDE TOWARDS HUMANS:"
+horizontal_alignment = 1
+
+[node name="AttitudeValue" type="Label" parent="Outer/Card/Pad/Pages/Page1/V1" unique_id=576307930]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_colors/font_color = Color(0.95, 0.9, 0.7, 1)
+theme_override_font_sizes/font_size = 34
+text = "PREDATORY"
+horizontal_alignment = 1
+
+[node name="CompassCenter" type="CenterContainer" parent="Outer/Card/Pad/Pages/Page1/V1" unique_id=1293190301]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Compass" type="Control" parent="Outer/Card/Pad/Pages/Page1/V1/CompassCenter" unique_id=300722033]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(440, 440)
+layout_mode = 2
+script = ExtResource("3")
+
+[node name="Legend" type="HBoxContainer" parent="Outer/Card/Pad/Pages/Page1/V1" unique_id=1717886477]
+layout_mode = 2
+theme_override_constants/separation = 28
+alignment = 1
+
+[node name="IdimyaItem" type="HBoxContainer" parent="Outer/Card/Pad/Pages/Page1/V1/Legend" unique_id=1447654933]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="LegendIdimyaDot" type="Panel" parent="Outer/Card/Pad/Pages/Page1/V1/Legend/IdimyaItem" unique_id=2036199093]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(14, 14)
+layout_mode = 2
+size_flags_vertical = 4
+
+[node name="L1" type="Label" parent="Outer/Card/Pad/Pages/Page1/V1/Legend/IdimyaItem" unique_id=705019674]
+layout_mode = 2
+theme_override_font_sizes/font_size = 15
+text = "Idimya"
+
+[node name="YouItem" type="HBoxContainer" parent="Outer/Card/Pad/Pages/Page1/V1/Legend" unique_id=1955098310]
+layout_mode = 2
+theme_override_constants/separation = 8
+
+[node name="LegendYouDot" type="Panel" parent="Outer/Card/Pad/Pages/Page1/V1/Legend/YouItem" unique_id=1274053587]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(14, 14)
+layout_mode = 2
+size_flags_vertical = 4
+
+[node name="L2" type="Label" parent="Outer/Card/Pad/Pages/Page1/V1/Legend/YouItem" unique_id=1664802308]
+layout_mode = 2
+theme_override_font_sizes/font_size = 15
+text = "You"
+
+[node name="Nav1" type="HBoxContainer" parent="Outer/Card/Pad/Pages/Page1" unique_id=1849803774]
+layout_mode = 2
+alignment = 2
+
+[node name="NextButton" type="Button" parent="Outer/Card/Pad/Pages/Page1/Nav1" unique_id=1929095102]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(64, 44)
+layout_mode = 2
+theme_override_font_sizes/font_size = 26
+text = "→"
+
+[node name="Page2" type="Control" parent="Outer/Card/Pad/Pages" unique_id=1346699973]
+unique_name_in_owner = true
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Log" type="VBoxContainer" parent="Outer/Card/Pad/Pages/Page2" unique_id=1466034667]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 14
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+offset_top = -320.0
+offset_bottom = 16.0
+grow_horizontal = 2
+theme_override_constants/separation = 14
+alignment = 2
+
+[node name="VerdictLabel" type="Label" parent="Outer/Card/Pad/Pages/Page2/Log" unique_id=32609837]
+unique_name_in_owner = true
+layout_mode = 2
+text = "IDIMYA SEES YOU AS HER"
+horizontal_alignment = 1
+
+[node name="Verdict" type="Label" parent="Outer/Card/Pad/Pages/Page2/Log" unique_id=1285929018]
+unique_name_in_owner = true
+layout_mode = 2
+text = "RIVAL"
+horizontal_alignment = 1
+
+[node name="CrushLine" type="RichTextLabel" parent="Outer/Card/Pad/Pages/Page2/Log" unique_id=1519716178]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 24)
+layout_mode = 2
+bbcode_enabled = true
+text = "...while lowkey having a crush on you."
+fit_content = true
+scroll_active = false
+
+[node name="SpaceBeforeA" type="Control" parent="Outer/Card/Pad/Pages/Page2/Log" unique_id=678325265]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+
+[node name="ABehaviorHeading" type="RichTextLabel" parent="Outer/Card/Pad/Pages/Page2/Log" unique_id=2142845284]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 24)
+layout_mode = 2
+bbcode_enabled = true
+text = "YOU ARE ASSERTIVE WITH IDIMYA."
+fit_content = true
+scroll_active = false
+
+[node name="AProse" type="RichTextLabel" parent="Outer/Card/Pad/Pages/Page2/Log" unique_id=410654887]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 60)
+layout_mode = 2
+bbcode_enabled = true
+text = "..."
+fit_content = true
+scroll_active = false
+
+[node name="Nav2" type="HBoxContainer" parent="Outer/Card/Pad/Pages/Page2" unique_id=374019527]
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -48.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_constants/separation = 16
+
+[node name="BackButton" type="Button" parent="Outer/Card/Pad/Pages/Page2/Nav2" unique_id=318171409]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(64, 44)
+layout_mode = 2
+text = "←"
+
+[node name="NavSpacer" type="Control" parent="Outer/Card/Pad/Pages/Page2/Nav2" unique_id=402796403]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="NewRunButton" type="Button" parent="Outer/Card/Pad/Pages/Page2/Nav2" unique_id=459053766]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(150, 44)
+layout_mode = 2
+text = "New run"
+
+[node name="QuitButton" type="Button" parent="Outer/Card/Pad/Pages/Page2/Nav2" unique_id=2025165315]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(120, 44)
+layout_mode = 2
+text = "Quit"

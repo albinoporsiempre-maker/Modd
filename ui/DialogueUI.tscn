@@ -1,0 +1,77 @@
+[gd_scene format=3 uid="uid://dogfpu1sceirk"]
+
+[ext_resource type="Theme" path="res://ui/clinical.tres" id="1"]
+[ext_resource type="Script" uid="uid://b4wuibcerpkn7" path="res://ui/DialogueUI.gd" id="2"]
+
+[node name="DialogueUI" type="Control" unique_id=924487888]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1")
+script = ExtResource("2")
+
+[node name="ClickCatcher" type="Control" parent="." unique_id=1290722505]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Block" type="VBoxContainer" parent="." unique_id=2005140136]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -380.0
+offset_top = 452.0
+offset_right = 380.0
+offset_bottom = 700.0
+grow_horizontal = 2
+theme_override_constants/separation = 10
+
+[node name="SpeakerLabel" type="Label" parent="Block" unique_id=1056932919]
+unique_name_in_owner = true
+layout_mode = 2
+text = "IDIMYA"
+horizontal_alignment = 1
+
+[node name="TextLabel" type="RichTextLabel" parent="Block" unique_id=2107434456]
+unique_name_in_owner = true
+layout_mode = 2
+bbcode_enabled = true
+text = "Dialogue text."
+fit_content = true
+scroll_active = false
+
+[node name="Rule" type="ColorRect" parent="Block" unique_id=640733862]
+unique_name_in_owner = true
+custom_minimum_size = Vector2(0, 1)
+layout_mode = 2
+color = Color(0.56, 0.53, 0.5, 1)
+
+[node name="ChoicesBox" type="VBoxContainer" parent="Block" unique_id=1219049563]
+unique_name_in_owner = true
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="ContinueHint" type="Label" parent="." unique_id=150204200]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -60.0
+offset_top = -56.0
+offset_right = -24.0
+offset_bottom = -20.0
+grow_horizontal = 0
+grow_vertical = 0
+text = "▼"
