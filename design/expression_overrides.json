@@ -1,0 +1,20 @@
+{
+  "1": {
+    "11": "idle"
+  },
+  "_comment": "Quick text corrections applied ON TOP of the xlsx sheet by tools/import_expressions.mjs. Same NODE_ID + 1-based LINE key. Value = a pose, or \"idle\"/\"\" to force idle (clears any sheet annotation for that line). Node `intro` is ignored here too.",
+  "3.2.2": {
+    "13": "soy",
+    "14": "soy",
+    "15": "smile",
+    "16": "idle",
+    "17": "soy",
+    "18": "smile"
+  },
+  "5.4.3.4": {
+    "5": "sad",
+    "6": "sad",
+    "7": "sad",
+    "8": "sad"
+  }
+}
