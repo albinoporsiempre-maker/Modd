@@ -1,0 +1,35 @@
+GDRE Tools v2.7.0
+Windows 10.0.19045, NVIDIA GeForce GTX 1050 Ti, vulkan
+Opening file: G:/Descargas/I Can Smell You from Here (Windows)/ICSYFH AI Implemented/I Can Smell You from Here.pck
+Loaded 93 imported files
+Detected Engine Version: 4.7.0
+Detected Bytecode Revision: 4.5.0-stable (ebc36a7)
+Verified 207 files, no errors detected!
+Extracted 207 files, no errors detected!
+Loading resource strings, this may take a while!!
+Resource strings loaded!
+Saved project config.
+
+
+********************************EXPORT REPORT********************************
+
+Totals:                                 
+Decompiled scripts:                     25
+Scripts not decompiled:                 0
+Imported resources for export session:  93
+Successfully converted:                 93
+Lossy:                                  22
+Rewrote metadata:                       55
+Non-importable conversions:             0
+Not converted:                          0
+Failed conversions:                     0
+-------------
+
+
+
+------------------------------------------------------------------------------------
+
+Use Godot editor version 4.7.0 to edit the project.
+
+*******************************************************************************
+
