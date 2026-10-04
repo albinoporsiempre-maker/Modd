@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="a game about telling lies"
-run/main_scene="res://scenes/Main.tscn"
+run/main_scene="res://scenes/BootMenu.gd"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://assets/icon/icon.png"
 

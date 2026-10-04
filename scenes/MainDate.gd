@@ -142,6 +142,7 @@ var _expr_map: Dictionary = {}
 
 func _ready() -> void :
 
+    add_to_group("main_date") # 
 	var k: = float(ProjectSettings.get_setting("display/window/size/viewport_width", 1280)) / ART_W
 	scale = Vector2(k, k)
 	_base_pos = idimya.position

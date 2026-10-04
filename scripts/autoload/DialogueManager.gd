@@ -102,6 +102,11 @@ func set_advance_locked(locked: bool) -> void :
 func advance() -> void :
 	if _awaiting_choice or _advance_locked:
 		return
+		if AIManager and AIManager.free_will_active:
+		var ui = get_tree().get_first_node_in_group("dialogue_box")
+		if ui and ui.has_method("show_free_will_ui"):
+			ui.show_free_will_ui()
+		return
 	var lines: Array = current_node().get("lines", [])
 	if _line_index < lines.size() - 1:
 		_line_index += 1
@@ -109,6 +114,10 @@ func advance() -> void :
 	else:
 		_resolve()
 
+func apply_free_will_data(data: Dictionary) -> void :
+	if data.has("cras"): RunState.apply_cras(data["cras"])
+	if data.has("flags"):
+		for f in data["flags"]: RunState.set_flag(str(f))
 
 func choose(child_id: String) -> void :
 	if not _awaiting_choice:

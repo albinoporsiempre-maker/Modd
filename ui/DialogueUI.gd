@@ -20,6 +20,7 @@ signal user_advanced
 
 signal fast_forward_changed(active: bool)
 
+var _free_will_ui: Control = null
 @onready var speaker_label: Label = %SpeakerLabel
 @onready var text_label: RichTextLabel = %TextLabel
 @onready var continue_hint: Label = %ContinueHint
@@ -104,6 +105,9 @@ func _ready() -> void :
 	rule.visible = false
 	continue_hint.visible = false
 	_clear_choices()
+	if AIManager:
+        AIManager.response_received.connect(_on_ai_response)
+        AIManager.request_failed.connect(_on_ai_failed)
 
 func _apply_style() -> void :
 	UIStyle.label_bold(speaker_label, UIStyle.SIZE_SPEAKER, UIStyle.TEXT_PRIMARY)
@@ -230,6 +234,14 @@ func _on_choices_shown(choices: Array) -> void :
 	_clear_choices()
 	_choice_hold = 0.0
 	_choice_committing = false
+		# >>> INJECT FREE WILL LOGIC HERE <<<
+	if AIManager and AIManager.free_will_active:
+		show_free_will_ui()
+		return
+	# >>> END INJECTION <<<
+
+	for choice in choices:
+		# ... original choice row creation code ...
 	for choice in choices:
 		var row: = ChoiceRow.new()
 		choices_box.add_child(row)
@@ -588,3 +600,57 @@ func _clear_choices() -> void :
 	_focused = -1
 	_choice_hold = 0.0
 	_confirm_gate = false
+
+func show_free_will_ui() -> void :
+	_showing_choices = true # Locks standard advance
+	if not _free_will_ui:
+		var FWI = load("res://ui/FreeWillInput.gd")
+		_free_will_ui = FWI.new()
+		add_child(_free_will_ui)
+		_free_will_ui.submit.connect(_on_free_will_submit)
+	
+	_free_will_ui.visible = true
+	_free_will_ui.reset_and_focus()
+
+func _on_free_will_submit(speech: String, action: String) -> void :
+	_free_will_ui.visible = false
+	DialogueManager.set_advance_locked(true)
+	AIManager.send_player_input(speech, action)
+
+func _on_ai_response(data: Dictionary) -> void :
+	DialogueManager.set_advance_locked(false)
+	
+	# 1. Apply CRAS and flags
+	if data.has("cras"): RunState.apply_cras(data["cras"])
+	if data.has("flags"):
+		for f in data["flags"]: RunState.set_flag(str(f))
+		
+	# 2. Handle ending trigger (with guardrail)
+	if data.has("trigger_ending") and data["trigger_ending"] != null and str(data["trigger_ending"]) != "":
+		if AIManager.chat_history.size() >= 15: 
+			DialogueManager.enter("ending_" + str(data["trigger_ending"]))
+			return
+			
+	# 3. Change Expression
+	if data.has("expression"):
+		var date_scene = get_tree().get_first_node_in_group("main_date")
+		if date_scene and date_scene.has_method("set_idimya_pose"):
+			date_scene.set_idimya_pose(str(data["expression"]))
+			
+	# 4. Inject Dialogue into the UI history
+	var say_text = str(data.get("dialogue", "..."))
+	_hist.append({"speaker": "idimya", "text": say_text})
+	_render_line("idimya", say_text)
+	_plain = say_text
+	_total = text_label.get_total_character_count()
+	_revealed = 0
+	_type_progress = 0.0
+	_typing = _total > 0
+	text_label.visible_characters = 0
+	if not _typing:
+		_on_line_complete()
+
+func _on_ai_failed(err: String) -> void :
+	DialogueManager.set_advance_locked(false)
+	push_error("AI Request Failed: " + err)
+	show_free_will_ui()
