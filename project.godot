@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="a game about telling lies"
-run/main_scene="res://scenes/BootMenu.gd"
+run/main_scene="res://scenes/Main.tscn"
 config/features=PackedStringArray("4.7", "Forward Plus")
 config/icon="res://assets/icon/icon.png"
 
@@ -24,6 +24,7 @@ DialogueManager="*res://scripts/autoload/DialogueManager.gd"
 MusicManager="*res://scripts/autoload/MusicManager.gd"
 Sfx="*res://scripts/autoload/Sfx.gd"
 SaveManager="*res://scripts/autoload/SaveManager.gd"
+AIManager="*res://scripts/autoload/AIManager.gd"
 
 [display]
 

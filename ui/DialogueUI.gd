@@ -224,30 +224,31 @@ func _char_cost(i: int) -> float:
 
 
 func _on_choices_shown(choices: Array) -> void :
-	_showing_choices = true
-	_dialogue_over = false
-	_typing = false
-	text_label.visible_characters = -1
-	_stop_arrow_bounce()
-	continue_hint.visible = false
-	rule.visible = true
-	_clear_choices()
-	_choice_hold = 0.0
-	_choice_committing = false
-		# >>> INJECT FREE WILL LOGIC HERE <<<
-	if AIManager and AIManager.free_will_active:
-		show_free_will_ui()
-		return
-	# >>> END INJECTION <<<
+    _showing_choices = true
+    _dialogue_over = false
+    _typing = false
+    text_label.visible_characters = -1
+    _stop_arrow_bounce()
+    continue_hint.visible = false
+    rule.visible = true
+    _clear_choices()
+    _choice_hold = 0.0
+    _choice_committing = false
 
-	for choice in choices:
-		# ... original choice row creation code ...
-	for choice in choices:
-		var row: = ChoiceRow.new()
-		choices_box.add_child(row)
-		row.setup(0, choice["label"], choice["id"])
-		row.set_hold_mode(true)
-		_choice_rows.append(row)
+    # >>> INJECT FREE WILL LOGIC HERE <<<
+    if AIManager and AIManager.free_will_active:
+        show_free_will_ui()
+        return
+    # >>> END INJECTION <<<
+
+    for choice in choices:
+        var row: = ChoiceRow.new()
+        choices_box.add_child(row)
+        row.setup(0, choice["label"], choice["id"])
+        row.set_hold_mode(true)
+        _choice_rows.append(row)
+        
+    # ... rest of the code below ...
 
 
 	choices_box.modulate.a = 0.0

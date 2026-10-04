@@ -100,14 +100,19 @@ func set_advance_locked(locked: bool) -> void :
 	_advance_locked = locked
 
 func advance() -> void :
-	if _awaiting_choice or _advance_locked:
-		return
-		if AIManager and AIManager.free_will_active:
-		var ui = get_tree().get_first_node_in_group("dialogue_box")
-		if ui and ui.has_method("show_free_will_ui"):
-			ui.show_free_will_ui()
-		return
-	var lines: Array = current_node().get("lines", [])
+    if _awaiting_choice or _advance_locked:
+        return
+        
+    # >>> INJECT FREE WILL LOOPBACK <<<
+    if AIManager and AIManager.free_will_active:
+        var ui = get_tree().get_first_node_in_group("dialogue_box")
+        if ui and ui.has_method("show_free_will_ui"):
+            ui.show_free_will_ui()
+        return
+    # >>> END INJECTION <<<
+
+    var lines: Array = current_node().get("lines", [])
+    # ... rest of the code ...
 	if _line_index < lines.size() - 1:
 		_line_index += 1
 		_present()
