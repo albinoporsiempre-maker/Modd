@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://bceqywvs7mcnk"]
+
+[ext_resource type="Script" uid="uid://bmd4lpqrky1dd" path="res://scenes/BistroLongshot.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://ciq0enjicvgo2" path="res://assets/longshot/ibistro.jpeg" id="2"]
+[ext_resource type="Texture2D" uid="uid://c1fpy7h5y4m0h" path="res://assets/longshot/fg1.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://nwbbw132ceyk" path="res://assets/longshot/fg2.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://dajnbgp0cdqpv" path="res://assets/longshot/fg3.png" id="5"]
+
+[node name="BistroLongshot" type="Node2D" unique_id=1544076490]
+script = ExtResource("1")
+
+[node name="Background" type="Sprite2D" parent="." unique_id=1882468927]
+texture = ExtResource("2")
+centered = false
+
+[node name="FG1" type="Sprite2D" parent="." unique_id=1999793763]
+texture = ExtResource("3")
+centered = false
+
+[node name="FG2" type="Sprite2D" parent="." unique_id=1931692015]
+texture = ExtResource("4")
+centered = false
+
+[node name="FG3" type="Sprite2D" parent="." unique_id=342983640]
+texture = ExtResource("5")
+centered = false
