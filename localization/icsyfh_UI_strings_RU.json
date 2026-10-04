@@ -1,0 +1,368 @@
+{
+  "controls/key_enter_space": {
+    "area": "start card",
+    "source_en": "ENTER / SPACE:",
+    "target_ru": "",
+    "note": "key name (usually left as-is)"
+  },
+  "controls/desc_progress": {
+    "area": "start card",
+    "source_en": "Progress dialogue",
+    "target_ru": "",
+    "note": ""
+  },
+  "controls/key_hold": {
+    "area": "start card",
+    "source_en": "HOLD ENTER / SPACE:",
+    "target_ru": "",
+    "note": "key name"
+  },
+  "controls/desc_confirm": {
+    "area": "start card",
+    "source_en": "Confirm choice",
+    "target_ru": "",
+    "note": ""
+  },
+  "controls/key_arrows": {
+    "area": "start card",
+    "source_en": "ARROW KEYS:",
+    "target_ru": "",
+    "note": "key name"
+  },
+  "controls/desc_navigate": {
+    "area": "start card",
+    "source_en": "Navigate choices",
+    "target_ru": "",
+    "note": ""
+  },
+  "controls/key_tab": {
+    "area": "start card",
+    "source_en": "TAB:",
+    "target_ru": "",
+    "note": "key name"
+  },
+  "controls/desc_tab": {
+    "area": "start card",
+    "source_en": "Options for those who want to explore different endings or grind for a perfect run ;)",
+    "target_ru": "",
+    "note": ""
+  },
+  "controls/got_it": {
+    "area": "start card button",
+    "source_en": "Got it",
+    "target_ru": "",
+    "note": ""
+  },
+  "results/attitude_label": {
+    "area": "results page 1 heading",
+    "source_en": "YOUR ATTITUDE TOWARDS HUMANS:",
+    "target_ru": "",
+    "note": ""
+  },
+  "results/attitude_FASCINATED": {
+    "area": "attitude value",
+    "source_en": "FASCINATED",
+    "target_ru": "",
+    "note": "one of 4 attitude values shown under the heading above"
+  },
+  "results/attitude_OBSESSIVE": {
+    "area": "attitude value",
+    "source_en": "OBSESSIVE",
+    "target_ru": "",
+    "note": ""
+  },
+  "results/attitude_COEXISTENT": {
+    "area": "attitude value",
+    "source_en": "COEXISTENT",
+    "target_ru": "",
+    "note": ""
+  },
+  "results/attitude_PREDATORY": {
+    "area": "attitude value",
+    "source_en": "PREDATORY",
+    "target_ru": "",
+    "note": ""
+  },
+  "results/verdict_lead": {
+    "area": "results page 2 (big)",
+    "source_en": "IDIMYA SEES YOU AS HER",
+    "target_ru": "",
+    "note": "followed by the verdict word below"
+  },
+  "results/verdict_ALLY": {
+    "area": "verdict value (big)",
+    "source_en": "ALLY",
+    "target_ru": "",
+    "note": "appears right after \"...SEES YOU AS HER\""
+  },
+  "results/verdict_RIVAL": {
+    "area": "verdict value (big)",
+    "source_en": "RIVAL",
+    "target_ru": "",
+    "note": ""
+  },
+  "results/crush_line": {
+    "area": "results page 2",
+    "source_en": "...while lowkey having a crush on you.",
+    "target_ru": "",
+    "note": "shown only on secret-crush endings"
+  },
+  "results/a_heading_fmt": {
+    "area": "results page 2 heading",
+    "source_en": "YOU ARE %s WITH IDIMYA.",
+    "target_ru": "",
+    "note": "%s is replaced by one of the 3 category words below - adjust grammar as needed"
+  },
+  "results/category_ASSERTIVE": {
+    "area": "category word (fills %s above)",
+    "source_en": "ASSERTIVE",
+    "target_ru": "",
+    "note": ""
+  },
+  "results/category_NEUTRAL": {
+    "area": "category word",
+    "source_en": "NEUTRAL",
+    "target_ru": "",
+    "note": ""
+  },
+  "results/category_AGREEABLE": {
+    "area": "category word",
+    "source_en": "AGREEABLE",
+    "target_ru": "",
+    "note": ""
+  },
+  "results/body_ASSERTIVE": {
+    "area": "results prose (assertive)",
+    "source_en": "You did not fold under pressure.\nNot a simp!",
+    "target_ru": "",
+    "note": "\n = line break"
+  },
+  "results/body_NEUTRAL": {
+    "area": "results prose (neutral)",
+    "source_en": "You held your poise, finding common ground with Idimya while maintaining a fair share of differences.",
+    "target_ru": "",
+    "note": ""
+  },
+  "results/body_AGREEABLE": {
+    "area": "results prose (agreeable)",
+    "source_en": "But do you genuinely stand behind all those rhetorical claims? Or were you just saying whatever it took not to get eaten? Perhaps you were simply trying to lie your way into a girl's pants.\n\nHow long would this peace last?\n\nYou couldn't help but wonder.",
+    "target_ru": "",
+    "note": "\n\n = blank line between paragraphs"
+  },
+  "results/legend_idimya": {
+    "area": "compass legend",
+    "source_en": "Idimya",
+    "target_ru": "",
+    "note": "character name label on the values compass"
+  },
+  "results/legend_you": {
+    "area": "compass legend",
+    "source_en": "You",
+    "target_ru": "",
+    "note": ""
+  },
+  "results/button_new_run": {
+    "area": "results button",
+    "source_en": "New run",
+    "target_ru": "",
+    "note": ""
+  },
+  "results/button_quit": {
+    "area": "results button",
+    "source_en": "Quit",
+    "target_ru": "",
+    "note": "hidden on the web build"
+  },
+  "speaker/idimya": {
+    "area": "dialogue speaker name",
+    "source_en": "IDIMYA",
+    "target_ru": "",
+    "note": "the name shown above Idimya’s lines (player lines show no name)"
+  },
+  "debug/title": {
+    "area": "debug menu heading",
+    "source_en": "DEBUG",
+    "target_ru": "",
+    "note": ""
+  },
+  "debug/menu_resume": {
+    "area": "debug menu option",
+    "source_en": "RESUME",
+    "target_ru": "",
+    "note": ""
+  },
+  "debug/menu_save": {
+    "area": "debug menu option",
+    "source_en": "SAVE",
+    "target_ru": "",
+    "note": ""
+  },
+  "debug/menu_load": {
+    "area": "debug menu option",
+    "source_en": "LOAD SAVE",
+    "target_ru": "",
+    "note": ""
+  },
+  "debug/menu_restart": {
+    "area": "debug menu option",
+    "source_en": "RESTART",
+    "target_ru": "",
+    "note": ""
+  },
+  "debug/menu_skip": {
+    "area": "debug menu option",
+    "source_en": "RESTART (SKIP INTRO)",
+    "target_ru": "",
+    "note": ""
+  },
+  "debug/menu_quit": {
+    "area": "debug menu option",
+    "source_en": "QUIT",
+    "target_ru": "",
+    "note": "hidden on the web build"
+  },
+  "debug/load_title": {
+    "area": "load menu heading",
+    "source_en": "LOAD SAVE",
+    "target_ru": "",
+    "note": ""
+  },
+  "debug/load_hint": {
+    "area": "load menu hint bar",
+    "source_en": "↑/↓ select save   ·   ←/→ trace route   ·   enter load   ·   esc back",
+    "target_ru": "",
+    "note": "keep the arrow/· symbols"
+  },
+  "debug/load_empty": {
+    "area": "load menu empty state",
+    "source_en": "no saves yet.",
+    "target_ru": "",
+    "note": ""
+  },
+  "debug/toast_saved": {
+    "area": "save toast",
+    "source_en": "checkpoint saved",
+    "target_ru": "",
+    "note": ""
+  },
+  "debug/toast_failed": {
+    "area": "save toast",
+    "source_en": "save failed",
+    "target_ru": "",
+    "note": ""
+  },
+  "overlay/title": {
+    "area": "F1 debug overlay",
+    "source_en": "DEBUG (F1)",
+    "target_ru": "",
+    "note": "developer tool"
+  },
+  "overlay/jump_placeholder": {
+    "area": "F1 overlay input hint",
+    "source_en": "node id (e.g. 9.3)",
+    "target_ru": "",
+    "note": ""
+  },
+  "overlay/jump": {
+    "area": "F1 overlay button",
+    "source_en": "Jump",
+    "target_ru": "",
+    "note": ""
+  },
+  "overlay/restart": {
+    "area": "F1 overlay button",
+    "source_en": "Restart run",
+    "target_ru": "",
+    "note": ""
+  },
+  "overlay/clear_meta": {
+    "area": "F1 overlay button",
+    "source_en": "Clear meta save",
+    "target_ru": "",
+    "note": ""
+  },
+  "overlay/cras_placeholder": {
+    "area": "F1 overlay input hint",
+    "source_en": "C R A S  e.g. -6 -8 7 1",
+    "target_ru": "",
+    "note": ""
+  },
+  "overlay/preview": {
+    "area": "F1 overlay button",
+    "source_en": "Preview results",
+    "target_ru": "",
+    "note": ""
+  },
+  "date/month_01": {
+    "area": "date (may be unused - build shows numeric dates)",
+    "source_en": "JAN",
+    "target_ru": "",
+    "note": "3-letter month abbrev"
+  },
+  "date/month_02": {
+    "area": "date (may be unused - build shows numeric dates)",
+    "source_en": "FEB",
+    "target_ru": "",
+    "note": "3-letter month abbrev"
+  },
+  "date/month_03": {
+    "area": "date (may be unused - build shows numeric dates)",
+    "source_en": "MAR",
+    "target_ru": "",
+    "note": "3-letter month abbrev"
+  },
+  "date/month_04": {
+    "area": "date (may be unused - build shows numeric dates)",
+    "source_en": "APR",
+    "target_ru": "",
+    "note": "3-letter month abbrev"
+  },
+  "date/month_05": {
+    "area": "date (may be unused - build shows numeric dates)",
+    "source_en": "MAY",
+    "target_ru": "",
+    "note": "3-letter month abbrev"
+  },
+  "date/month_06": {
+    "area": "date (may be unused - build shows numeric dates)",
+    "source_en": "JUN",
+    "target_ru": "",
+    "note": "3-letter month abbrev"
+  },
+  "date/month_07": {
+    "area": "date (may be unused - build shows numeric dates)",
+    "source_en": "JUL",
+    "target_ru": "",
+    "note": "3-letter month abbrev"
+  },
+  "date/month_08": {
+    "area": "date (may be unused - build shows numeric dates)",
+    "source_en": "AUG",
+    "target_ru": "",
+    "note": "3-letter month abbrev"
+  },
+  "date/month_09": {
+    "area": "date (may be unused - build shows numeric dates)",
+    "source_en": "SEP",
+    "target_ru": "",
+    "note": "3-letter month abbrev"
+  },
+  "date/month_10": {
+    "area": "date (may be unused - build shows numeric dates)",
+    "source_en": "OCT",
+    "target_ru": "",
+    "note": "3-letter month abbrev"
+  },
+  "date/month_11": {
+    "area": "date (may be unused - build shows numeric dates)",
+    "source_en": "NOV",
+    "target_ru": "",
+    "note": "3-letter month abbrev"
+  },
+  "date/month_12": {
+    "area": "date (may be unused - build shows numeric dates)",
+    "source_en": "DEC",
+    "target_ru": "",
+    "note": "3-letter month abbrev"
+  }
+}

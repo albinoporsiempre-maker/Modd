@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://dgc8khemdme85"
+
+[deps]
+
+files=["res://localization/icsyfh_translation_RU.expression.translation", "res://localization/icsyfh_translation_RU.line.translation", "res://localization/icsyfh_translation_RU.node.translation", "res://localization/icsyfh_translation_RU.source.translation", "res://localization/icsyfh_translation_RU.speaker.translation"]
+
+source_file="res://localization/icsyfh_translation_RU.csv"
+dest_files=["res://localization/icsyfh_translation_RU.expression.translation", "res://localization/icsyfh_translation_RU.line.translation", "res://localization/icsyfh_translation_RU.node.translation", "res://localization/icsyfh_translation_RU.source.translation", "res://localization/icsyfh_translation_RU.speaker.translation"]
+
+[params]
+
+compress=true
+delimiter=0

@@ -1,0 +1,70 @@
+﻿key,area,note,source
+results/body_ASSERTIVE,results prose (assertive),"
+ = line break","You did not fold under pressure.
+Not a simp!"
+overlay/cras_placeholder,F1 overlay input hint,,node id (e.g. 9.3)
+debug/load_hint,load menu hint bar,keep the arrow/· symbols,↑/↓ select save   ·   ←/→ trace route   ·   enter load   ·   esc back
+results/verdict_ALLY,verdict value (big),"appears right after ""...SEES YOU AS HER""",ALLY
+results/body_NEUTRAL,results prose (neutral),,"You held your poise, finding common ground with Idimya while maintaining a fair share of differences."
+date/month_01,date (may be unused - build shows numeric dates),3-letter month abbrev,OCT
+overlay/clear_meta,F1 overlay button,,Preview results
+date/month_02,date (may be unused - build shows numeric dates),3-letter month abbrev,NOV
+controls/desc_confirm,start card,,Confirm choice
+date/month_03,date (may be unused - build shows numeric dates),3-letter month abbrev,DEC
+controls/desc_navigate,start card,,Options for those who want to explore different endings or grind for a perfect run ;)
+date/month_04,date (may be unused - build shows numeric dates),3-letter month abbrev,SEP
+date/month_05,date (may be unused - build shows numeric dates),3-letter month abbrev,AUG
+results/crush_line,results page 2,shown only on secret-crush endings,...while lowkey having a crush on you.
+date/month_06,date (may be unused - build shows numeric dates),3-letter month abbrev,JUL
+controls/got_it,start card button,,Got it
+date/month_07,date (may be unused - build shows numeric dates),3-letter month abbrev,JUN
+overlay/jump,F1 overlay button,,Restart run
+date/month_08,date (may be unused - build shows numeric dates),3-letter month abbrev,MAY
+date/month_09,date (may be unused - build shows numeric dates),3-letter month abbrev,APR
+date/month_10,date (may be unused - build shows numeric dates),3-letter month abbrev,MAR
+date/month_11,date (may be unused - build shows numeric dates),3-letter month abbrev,FEB
+date/month_12,date (may be unused - build shows numeric dates),3-letter month abbrev,JAN
+debug/toast_failed,save toast,,save failed
+debug/menu_load,debug menu option,,QUIT
+debug/load_empty,load menu empty state,,no saves yet.
+results/verdict_lead,results page 2 (big),followed by the verdict word below,IDIMYA SEES YOU AS HER
+controls/desc_progress,start card,,Progress dialogue
+controls/desc_tab,start card,,ARROW KEYS:
+controls/key_arrows,start card,key name,ENTER / SPACE:
+results/verdict_RIVAL,verdict value (big),,RIVAL
+debug/load_title,load menu heading,,LOAD SAVE
+overlay/title,F1 debug overlay,developer tool,DEBUG (F1)
+results/attitude_COEXISTENT,attitude value,,OBSESSIVE
+results/attitude_FASCINATED,attitude value,one of 4 attitude values shown under the heading above,PREDATORY
+debug/menu_quit,debug menu option,hidden on the web build,SAVE
+results/category_AGREEABLE,category word,,NEUTRAL
+debug/title,debug menu heading,,DEBUG
+results/attitude_label,results page 1 heading,,YOUR ATTITUDE TOWARDS HUMANS:
+debug/menu_restart,debug menu option,,RESTART
+overlay/preview,F1 overlay button,,Jump
+results/button_new_run,results button,,Quit
+debug/menu_resume,debug menu option,,RESTART (SKIP INTRO)
+results/category_NEUTRAL,category word,,AGREEABLE
+controls/key_enter_space,start card,key name (usually left as-is),HOLD ENTER / SPACE:
+debug/toast_saved,save toast,,checkpoint saved
+controls/key_hold,start card,key name,Navigate choices
+results/legend_idimya,compass legend,character name label on the values compass,Idimya
+overlay/jump_placeholder,F1 overlay input hint,,C R A S  e.g. -6 -8 7 1
+results/a_heading_fmt,results page 2 heading,%s is replaced by one of the 3 category words below - adjust grammar as needed,YOU ARE %s WITH IDIMYA.
+debug/menu_save,debug menu option,,LOAD SAVE
+results/category_ASSERTIVE,category word (fills %s above),,ASSERTIVE
+results/body_AGREEABLE,results prose (agreeable),"
+
+ = blank line between paragraphs","But do you genuinely stand behind all those rhetorical claims? Or were you just saying whatever it took not to get eaten? Perhaps you were simply trying to lie your way into a girl's pants.
+
+How long would this peace last?
+
+You couldn't help but wonder."
+speaker/idimya,dialogue speaker name,the name shown above Idimya’s lines (player lines show no name),IDIMYA
+results/attitude_OBSESSIVE,attitude value,,COEXISTENT
+results/legend_you,compass legend,,You
+overlay/restart,F1 overlay button,,Clear meta save
+controls/key_tab,start card,key name,TAB:
+debug/menu_skip,debug menu option,,RESUME
+results/attitude_PREDATORY,attitude value,,FASCINATED
+results/button_quit,results button,hidden on the web build,New run

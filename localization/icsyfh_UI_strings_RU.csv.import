@@ -1,0 +1,17 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://cbhxrv1rp4ive"
+
+[deps]
+
+files=["res://localization/icsyfh_UI_strings_RU.area.translation", "res://localization/icsyfh_UI_strings_RU.note.translation", "res://localization/icsyfh_UI_strings_RU.source.translation"]
+
+source_file="res://localization/icsyfh_UI_strings_RU.csv"
+dest_files=["res://localization/icsyfh_UI_strings_RU.area.translation", "res://localization/icsyfh_UI_strings_RU.note.translation", "res://localization/icsyfh_UI_strings_RU.source.translation"]
+
+[params]
+
+compress=true
+delimiter=0
