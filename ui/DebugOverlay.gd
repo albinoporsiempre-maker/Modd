@@ -79,7 +79,7 @@ func _refresh() -> void :
 	var rs: = RunState
 	var lines: Array[String] = []
 	lines.append("[b]node:[/b] %s" % DialogueManager.current_id)
-	var nd: = DialogueManager.current_node()
+	var nd: Dictionary = DialogueManager.current_node()
 	lines.append("  design_id: %s  kind: %s" % [nd.get("design_id", "-"), nd.get("kind", "-")])
 	lines.append("[b]CRAS[/b]  C=%d  R=%d  A=%d  S=%d" % [rs.C, rs.R, rs.A, rs.S])
 	var oc: = OutcomeCalculator.compute(rs)

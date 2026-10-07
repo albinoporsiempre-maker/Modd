@@ -1,8 +1,11 @@
 extends Node
 
+const OutcomeCalculator = preload("res://scripts/OutcomeCalculator.gd")
+
 signal response_received(data: Dictionary)
 signal request_failed(err: String)
 signal config_saved
+
 
 var free_will_active: bool = false
 var chat_history: Array = []

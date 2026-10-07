@@ -413,7 +413,7 @@ func new_run_skip_intro() -> void :
 
 
 func build_snapshot() -> Dictionary:
-	var pos: = DialogueManager.capture_position()
+	var pos: Dictionary = DialogueManager.capture_position()
 	return {
 		"save_version": SaveManager.SAVE_VERSION, 
 		"timestamp_unix": int(Time.get_unix_time_from_system()), 
